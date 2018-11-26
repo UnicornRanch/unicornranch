@@ -1,18 +1,16 @@
 dist: xenial
-language: python
-
 python:
     - "3.6"
-
 install:
-    # install latest release version
-    - sudo apt-get install hugo
+    # install latest release versi
+    - wget https://github.com/gohugoio/hugo/releases/download/v0.51/hugo_0.51_Linux-64bit.deb
+    - sudo apt install ./hugo_0.51_Linux-64bit.deb
     - pip install Pygments
     - rm -rf public 2> /dev/null
 
 script:
-    #- hugo
-    #- echo 'unicornranch.tech' > public/CNAME
+    - hugo
+    - echo 'unicornranch.tech' > public/CNAME
 
 deploy:
   provider: pages
