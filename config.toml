@@ -11,19 +11,19 @@ relativeURLs = true
 hrefTargetBlank = true
 
 [params]
-editURL = "https://github.com/aws-samples/eks-workshop/edit/master/content/"
+editURL = "https://github.com/UnicornRanch/unicornranch/edit/master/content"
 themeVariant = "mine"
 showVisitedLinks = false
-author = "Brent Langston"
-description = "Amazon EKS Workshop"
+author = "Unicorn Ranch Team"
+description = "Uniconr Ranch Blog"
 disableSearch = false
 disableAssetsBusting = false
 disableLanguageSwitchingButton = true
 disableShortcutsTitle=false
 disableInlineCopyToClipBoard = true
-ghrepo = "https://github.com/aws-samples/eks-workshop/"
+ghrepo = "https://github.com/UnicornRanch/unicornranch/"
 branch = "master"
-template_bucket = "eksworkshop.com"
+template_bucket = ""
 
 #
 
@@ -47,12 +47,12 @@ weight = 20
 
 [[menu.shortcuts]]
 name = "<i class='fab fa-github'></i> GitHub Project"
-url = "https://github.com/aws-samples/eks-workshop"
+url = "https://github.com/UnicornRanch/unicornranch/"
 weight = 30
 
 [[menu.shortcuts]]
 name = "<i class='fas fa-envelope'></i> Have questions?"
-url = "mailto:eksworkshop@amazon.com"
+url = "mailto:unicornranch@amazon.com"
 weight = 40
 
 
