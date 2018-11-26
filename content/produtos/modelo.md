@@ -15,4 +15,6 @@ Página principal do produto:
 
 #### Preço
 
-#### Vídeo
+#### Vídeos
+
+#### Documentos
