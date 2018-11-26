@@ -1,5 +1,9 @@
 # Unicorn Rach
 
+### Build Status:
+
+[![Build Status](https://travis-ci.org/UnicornRanch/unicornranch.svg?branch=master)](https://travis-ci.org/UnicornRanch/unicornranch)
+
 ### Setup:
 
 #### Install Hugo:
