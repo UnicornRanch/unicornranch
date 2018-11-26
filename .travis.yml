@@ -6,6 +6,7 @@ before_install:
 - "git submodule init; git submodule update"
 
 install: 
+- "cd /home/travis/build/UnicornRanch/unicornranch/"
 - "npm install"
  
 script:
