@@ -1,14 +1,29 @@
-os: linux
-dist: trusty
-language: node_js
+language: python
 
-before_install:
-- "git submodule init; git submodule update"
+python:
+    - "3.6"
 
-install: 
-- "cd /home/travis/build/UnicornRanch/unicornranch/"
-- "npm install"
- 
+install:
+    # install latest release version
+    # - wget $(wget -qO- https://api.github.com/repos/gohugoio/hugo/releases/latest | sed -r -n '/browser_download_url/{/Linux-64bit.deb/{s@[^:]*:[[:space:]]*"([^"]*)".*@\1@g;p}}')
+    - wget -qO- https://api.github.com/repos/gohugoio/hugo/releases/latest | sed -r -n '/browser_download_url/{/Linux-64bit.deb/{s@[^:]*:[[:space:]]*"([^"]*)".*@\1@g;p}}' | xargs wget
+    - sudo dpkg -i hugo*.deb
+    - pip install Pygments
+    - rm -rf public 2> /dev/null
+
 script:
-- "npm build server"
-- "echo \"Buildado com sucesso \""
+    - hugo
+    - echo 'unicornranch.tech' > public/CNAME
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN  # Set in travis-ci.org dashboard, marked secure
+  email: $GITHUB_EMAIL
+  name: $GITHUB_USERNAME
+  verbose: true
+  keep-history: true
+  local-dir: public
+  target_branch: master  # branch contains blog content
+  on:
+    branch: code  # branch contains Hugo generator code
