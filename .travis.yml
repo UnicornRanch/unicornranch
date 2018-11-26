@@ -12,7 +12,7 @@ install:
 
 script:
     #- hugo
-    - echo 'unicornranch.tech' > public/CNAME
+    #- echo 'unicornranch.tech' > public/CNAME
 
 deploy:
   provider: pages
