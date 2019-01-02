@@ -11,7 +11,7 @@ relativeURLs = true
 hrefTargetBlank = true
 
 [params]
-editURL = "https://github.com/UnicornRanch/unicornranch/blob/master/content"
+editURL = "https://github.com/UnicornRanch/unicornranch/blob/master/content/"
 themeVariant = "mine"
 showVisitedLinks = false
 author = "Unicorn Ranch Team"
