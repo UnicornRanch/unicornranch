@@ -11,11 +11,9 @@ Protótipo de um dispenser de capsulas.
 
 ![imagem](https://github.com/UnicornRanch/unicornranch/raw/master/static/images/dispenser/dispenser_800X600.png "Dispenser")
 
-#### Sobre
-
-Página principal do produto: 
-
 #### Arquitetura
+
+... comming soon.
 
 #### Códigos
 
