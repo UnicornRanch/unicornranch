@@ -35,11 +35,11 @@
 	"content": "Unicorn Ranch Project Essa página é uma inicativa de auxiliar parceiros e clientes na utilização das soluções AWS.\n"
 },
 {
-	"uri": "/partnercast/",
-	"title": "PartnerCast",
+	"uri": "/workshops/",
+	"title": "Workshops",
 	"tags": [],
 	"description": "",
-	"content": " PartnerCast Nessa sessão, vamos colocar as dúvidas mais frequentes, divididas por tópicos para facilitar a busca. Você ainda pode usar a ferramenta de search da página.\n"
+	"content": " Workshops Alguns workshops ou demos realizados que podem auxíliar na criação de alguma solução ou serviço.\n"
 },
 {
 	"uri": "/projetos/",
