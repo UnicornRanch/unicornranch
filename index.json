@@ -14,6 +14,13 @@
 	"content": " Sobre  Compatível com todos os serviços AWS que acessam a internet. Reduz custos de transferência out-bound com o ambiente de cloud, custos de in-bound se mantém gratuitos. Página principal do produto: https://aws.amazon.com/directconnect/  Casos de uso  Quantidades massivas de dados, quando é necessário mover grandes quantidades de dados sistematicamente. Workloads de vídeo, voz streamming, entre outros. Ambientes híbridos, quando é necessário interligar ambientes off-prem com a cloud.  Preço  Preço é composto por 2 componentes:  porta de acesso (1G ou 10G ) custo do tráfego out-bound   Vídeos  (NET301) Extending Data Centers to the Cloud: Connectivity Options and Co  Documentos  (NET201) VPC Fundamentals and Connectivity Options (NET406) Deep Dive: AWS Direct Connect and VPNs  "
 },
 {
+	"uri": "/workshops/eks/",
+	"title": "EKS",
+	"tags": [],
+	"description": "",
+	"content": " EKS Instalação e Configuração Sobre Página principal do produto:\nInstalação Instalação EKSCTL Utilizando brew, instale o repositorio e depois instale o eksctl\nbrew tap weaveworks/tap brew install weaveworks/tap/eksctl  Verifique a instalação:\neksctl version  Criação do cluster EKS Criação do cluster EKS\neksctl create cluster --name=eksworkshop-eksctl --nodes=3 --node-ami=auto --region=${AWS_REGION}  Verifique o cluster e check os nodes\nkubectl get nodes  Vídeos Documentos "
+},
+{
 	"uri": "/faq/migracao/",
 	"title": "Migração de Workloads",
 	"tags": [],
