@@ -6,7 +6,7 @@
     <description>Recent content in Workshops on Unicorn Ranch</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 22 Nov 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 02 May 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/workshops/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,15 +14,15 @@
     <item>
       <title>EKS</title>
       <link>/workshops/eks/</link>
-      <pubDate>Thu, 22 Nov 2018 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 02 May 2019 00:00:00 +0000</pubDate>
       
       <guid>/workshops/eks/</guid>
-      <description> EKS Instalação e Configuração Sobre Página principal do produto:
+      <description>EKS Instalação e Configuração Sobre Página principal do produto:
+Pré-requisitos Instale KUBECTL Instale e configure o AWSCLI
 Instalação Instalação EKSCTL Utilizando brew, instale o repositorio e depois instale o eksctl
 brew tap weaveworks/tap brew install weaveworks/tap/eksctl  Verifique a instalação:
 eksctl version  Criação do cluster EKS Criação do cluster EKS
-eksctl create cluster --name=eksworkshop-eksctl --nodes=3 --node-ami=auto --region=${AWS_REGION}  Verifique o cluster e check os nodes
-kubectl get nodes  Vídeos Documentos </description>
+eksctl create cluster --name=eksworkshop-eksctl --nodes=3 --node-ami=auto --region=${AWS_REGION}  Entre no console do CloudFormation e copie o ServiceRoleARN, iremos utilizar esse id no arquivo abaixo.</description>
     </item>
     
   </channel>

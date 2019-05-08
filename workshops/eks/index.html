@@ -18,21 +18,21 @@
     <title>EKS :: Unicorn Ranch</title>
 
     
-    <link href="../../css/nucleus.css?1556844634" rel="stylesheet">
-    <link href="../../css/fontawesome-all.min.css?1556844634" rel="stylesheet">
-    <link href="../../css/hybrid.css?1556844634" rel="stylesheet">
-    <link href="../../css/featherlight.min.css?1556844634" rel="stylesheet">
-    <link href="../../css/perfect-scrollbar.min.css?1556844634" rel="stylesheet">
-    <link href="../../css/auto-complete.css?1556844634" rel="stylesheet">
-    <link href="../../css/theme.css?1556844634" rel="stylesheet">
-    <link href="../../css/hugo-theme.css?1556844634" rel="stylesheet">
-    <link href="../../css/jquery-ui.min.css?1556844634" rel="stylesheet">
+    <link href="../../css/nucleus.css?1557325408" rel="stylesheet">
+    <link href="../../css/fontawesome-all.min.css?1557325408" rel="stylesheet">
+    <link href="../../css/hybrid.css?1557325408" rel="stylesheet">
+    <link href="../../css/featherlight.min.css?1557325408" rel="stylesheet">
+    <link href="../../css/perfect-scrollbar.min.css?1557325408" rel="stylesheet">
+    <link href="../../css/auto-complete.css?1557325408" rel="stylesheet">
+    <link href="../../css/theme.css?1557325408" rel="stylesheet">
+    <link href="../../css/hugo-theme.css?1557325408" rel="stylesheet">
+    <link href="../../css/jquery-ui.min.css?1557325408" rel="stylesheet">
     
-      <link href="../../css/theme-mine.css?1556844634" rel="stylesheet">
+      <link href="../../css/theme-mine.css?1557325408" rel="stylesheet">
     
 
-    <script src="../../js/jquery-3.3.1.min.js?1556844634"></script>
-    <script src="../../js/jquery-ui-1.12.1.min.js?1556844634"></script>
+    <script src="../../js/jquery-3.3.1.min.js?1557325408"></script>
+    <script src="../../js/jquery-ui-1.12.1.min.js?1557325408"></script>
 
 
     <style type="text/css">
@@ -64,14 +64,14 @@
     <span data-search-clear=""><i class="fas fa-close"></i></span>
 </div>
 
-<script type="text/javascript" src="../../js/lunr.min.js?1556844634"></script>
-<script type="text/javascript" src="../../js/auto-complete.js?1556844634"></script>
+<script type="text/javascript" src="../../js/lunr.min.js?1557325408"></script>
+<script type="text/javascript" src="../../js/auto-complete.js?1557325408"></script>
 <script type="text/javascript">
     
         var baseurl = '\/';
     
 </script>
-<script type="text/javascript" src="../../js/search.js?1556844634"></script>
+<script type="text/javascript" src="../../js/search.js?1557325408"></script>
 
     
   </div>
@@ -394,11 +394,12 @@
 <li>
 <ul>
 <li><a href="#sobre">Sobre</a></li>
+<li><a href="#pré-requisitos">Pré-requisitos</a></li>
 <li><a href="#instalação">Instalação</a></li>
 <li><a href="#instalação-eksctl">Instalação EKSCTL</a></li>
 <li><a href="#criação-do-cluster-eks">Criação do cluster EKS</a></li>
-<li><a href="#vídeos">Vídeos</a></li>
-<li><a href="#documentos">Documentos</a></li>
+<li><a href="#configuração-do-kubectl">Configuração do KUBECTL</a></li>
+<li><a href="#configure-o-dashboard">Configure o Dashboard</a></li>
 </ul></li>
 </ul></li>
 </ul></li>
@@ -429,6 +430,11 @@
 
 <p>Página principal do produto:</p>
 
+<h4 id="pré-requisitos">Pré-requisitos</h4>
+
+<p>Instale KUBECTL
+Instale e configure o AWSCLI</p>
+
 <h4 id="instalação">Instalação</h4>
 
 <h4 id="instalação-eksctl">Instalação EKSCTL</h4>
@@ -451,14 +457,52 @@ brew install weaveworks/tap/eksctl
 <pre><code>eksctl create cluster --name=eksworkshop-eksctl --nodes=3 --node-ami=auto --region=${AWS_REGION}
 </code></pre>
 
-<p>Verifique o cluster e check os nodes</p>
+<p>Entre no console do CloudFormation e copie o ServiceRoleARN, iremos utilizar esse id no arquivo abaixo.</p>
+
+<h4 id="configuração-do-kubectl">Configuração do KUBECTL</h4>
+
+<p>Crie o arquivo aws-auth-cm.yaml</p>
+
+<pre><code>apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: aws-auth
+  namespace: kube-system
+data:
+  mapRoles: |
+    - rolearn: &lt;COLOQUE O ID DO SERVICE ROLE ARN DO CLOUD FORMATION AQUI&gt;
+      username: system:node:{{EC2PrivateDNSName}}
+      groups:
+        - system:bootstrappers
+        - system:nodes
+</code></pre>
+
+<p>Configure o KUBECTL utilizando arquivo criado acima</p>
+
+<pre><code>kubectl apply -f aws-auth-cm.yaml
+</code></pre>
+
+<p>Verifique se o kuibectl está funcionando e check os nodes</p>
 
 <pre><code>kubectl get nodes
 </code></pre>
 
-<h4 id="vídeos">Vídeos</h4>
+<h4 id="configure-o-dashboard">Configure o Dashboard</h4>
 
-<h4 id="documentos">Documentos</h4>
+<p>Instale o dashboard oficial</p>
+
+<pre><code>kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v1.10.1/src/deploy/recommended/kubernetes-dashboard.yaml
+</code></pre>
+
+<p>Execute o proxy</p>
+
+<pre><code>kubectl proxy &amp;
+</code></pre>
+
+<p>Pegue o token de segurança para acesso ao proxy
+<code>
+kubectl -n kube-system describe secret $(kubectl -n kube-system get secret | grep eks-admin | awk '{print $1}')
+</code>`</p>
 
 
 <footer class=" footline" >
@@ -647,20 +691,20 @@ brew install weaveworks/tap/eksctl
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../js/clipboard.min.js?1556844634"></script>
-    <script src="../../js/perfect-scrollbar.min.js?1556844634"></script>
-    <script src="../../js/perfect-scrollbar.jquery.min.js?1556844634"></script>
-    <script src="../../js/jquery.sticky.js?1556844634"></script>
-    <script src="../../js/featherlight.min.js?1556844634"></script>
-    <script src="../../js/html5shiv-printshiv.min.js?1556844634"></script>
-    <script src="../../js/highlight.pack.js?1556844634"></script>
+    <script src="../../js/clipboard.min.js?1557325408"></script>
+    <script src="../../js/perfect-scrollbar.min.js?1557325408"></script>
+    <script src="../../js/perfect-scrollbar.jquery.min.js?1557325408"></script>
+    <script src="../../js/jquery.sticky.js?1557325408"></script>
+    <script src="../../js/featherlight.min.js?1557325408"></script>
+    <script src="../../js/html5shiv-printshiv.min.js?1557325408"></script>
+    <script src="../../js/highlight.pack.js?1557325408"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="../../js/modernizr.custom.71422.js?1556844634"></script>
-    <script src="../../js/learn.js?1556844634"></script>
-    <script src="../../js/hugo-learn.js?1556844634"></script>
+    <script src="../../js/modernizr.custom.71422.js?1557325408"></script>
+    <script src="../../js/learn.js?1557325408"></script>
+    <script src="../../js/hugo-learn.js?1557325408"></script>
 
-    <link href="../../mermaid/mermaid.css?1556844634" type="text/css" rel="stylesheet" />
-    <script src="../../mermaid/mermaid.min.js?1556844634"></script>
+    <link href="../../mermaid/mermaid.css?1557325408" type="text/css" rel="stylesheet" />
+    <script src="../../mermaid/mermaid.min.js?1557325408"></script>
     <script>
 	var config = {
         startOnLoad:true,

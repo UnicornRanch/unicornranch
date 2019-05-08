@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/workshops/eks/</loc>
+    <lastmod>2019-05-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/projetos/dispenser/</loc>
     <lastmod>2018-12-17T00:00:00+00:00</lastmod>
   </url>
@@ -10,11 +15,6 @@
   <url>
     <loc>/produtos/direct_connect/</loc>
     <lastmod>2018-11-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/workshops/eks/</loc>
-    <lastmod>2018-11-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -29,12 +29,12 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2018-12-17T00:00:00+00:00</lastmod>
+    <lastmod>2019-05-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/workshops/</loc>
-    <lastmod>2018-11-22T00:00:00+00:00</lastmod>
+    <lastmod>2019-05-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>

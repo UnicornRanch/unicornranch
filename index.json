@@ -1,5 +1,12 @@
 [
 {
+	"uri": "/workshops/eks/",
+	"title": "EKS",
+	"tags": [],
+	"description": "",
+	"content": " EKS Instalação e Configuração Sobre Página principal do produto:\nPré-requisitos Instale KUBECTL Instale e configure o AWSCLI\nInstalação Instalação EKSCTL Utilizando brew, instale o repositorio e depois instale o eksctl\nbrew tap weaveworks/tap brew install weaveworks/tap/eksctl  Verifique a instalação:\neksctl version  Criação do cluster EKS Criação do cluster EKS\neksctl create cluster --name=eksworkshop-eksctl --nodes=3 --node-ami=auto --region=${AWS_REGION}  Entre no console do CloudFormation e copie o ServiceRoleARN, iremos utilizar esse id no arquivo abaixo.\nConfiguração do KUBECTL Crie o arquivo aws-auth-cm.yaml\napiVersion: v1 kind: ConfigMap metadata: name: aws-auth namespace: kube-system data: mapRoles: | - rolearn: \u0026lt;COLOQUE O ID DO SERVICE ROLE ARN DO CLOUD FORMATION AQUI\u0026gt; username: system:node:{{EC2PrivateDNSName}} groups: - system:bootstrappers - system:nodes  Configure o KUBECTL utilizando arquivo criado acima\nkubectl apply -f aws-auth-cm.yaml  Verifique se o kuibectl está funcionando e check os nodes\nkubectl get nodes  Configure o Dashboard Instale o dashboard oficial\nkubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v1.10.1/src/deploy/recommended/kubernetes-dashboard.yaml  Execute o proxy\nkubectl proxy \u0026amp;  Pegue o token de segurança para acesso ao proxy  kubectl -n kube-system describe secret $(kubectl -n kube-system get secret | grep eks-admin | awk '{print $1}') `\n"
+},
+{
 	"uri": "/projetos/dispenser/",
 	"title": "Dispenser Cápsulas",
 	"tags": [],
@@ -12,13 +19,6 @@
 	"tags": [],
 	"description": "",
 	"content": " Sobre  Compatível com todos os serviços AWS que acessam a internet. Reduz custos de transferência out-bound com o ambiente de cloud, custos de in-bound se mantém gratuitos. Página principal do produto: https://aws.amazon.com/directconnect/  Casos de uso  Quantidades massivas de dados, quando é necessário mover grandes quantidades de dados sistematicamente. Workloads de vídeo, voz streamming, entre outros. Ambientes híbridos, quando é necessário interligar ambientes off-prem com a cloud.  Preço  Preço é composto por 2 componentes:  porta de acesso (1G ou 10G ) custo do tráfego out-bound   Vídeos  (NET301) Extending Data Centers to the Cloud: Connectivity Options and Co  Documentos  (NET201) VPC Fundamentals and Connectivity Options (NET406) Deep Dive: AWS Direct Connect and VPNs  "
-},
-{
-	"uri": "/workshops/eks/",
-	"title": "EKS",
-	"tags": [],
-	"description": "",
-	"content": " EKS Instalação e Configuração Sobre Página principal do produto:\nInstalação Instalação EKSCTL Utilizando brew, instale o repositorio e depois instale o eksctl\nbrew tap weaveworks/tap brew install weaveworks/tap/eksctl  Verifique a instalação:\neksctl version  Criação do cluster EKS Criação do cluster EKS\neksctl create cluster --name=eksworkshop-eksctl --nodes=3 --node-ami=auto --region=${AWS_REGION}  Verifique o cluster e check os nodes\nkubectl get nodes  Vídeos Documentos "
 },
 {
 	"uri": "/faq/migracao/",
