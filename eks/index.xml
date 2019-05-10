@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>EKS on Unicorn Ranch</title>
+    <link>/eks/</link>
+    <description>Recent content in EKS on Unicorn Ranch</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 09 May 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/eks/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Pré-requisitos</title>
+      <link>/eks/pre-req/</link>
+      <pubDate>Thu, 09 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/eks/pre-req/</guid>
+      <description> Para MACOS Instale KUBECTL Instale e configure o AWSCLI
+Instalação EKSCTL Utilizando brew, instale o repositorio e depois instale o eksctl
+brew tap weaveworks/tap brew install weaveworks/tap/eksctl  Verifique a instalação:
+eksctl version  </description>
+    </item>
+    
+    <item>
+      <title>EKS</title>
+      <link>/eks/eks/</link>
+      <pubDate>Thu, 02 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/eks/eks/</guid>
+      <description>Criação do cluster EKS Criação do cluster EKS
+eksctl create cluster --name=eksworkshop-eksctl --nodes=3 --node-ami=auto --region=${AWS_REGION}  Entre no console do CloudFormation e copie o ServiceRoleARN, iremos utilizar esse id no arquivo abaixo.
+Configuração do KUBECTL Crie o arquivo aws-auth-cm.yaml
+apiVersion: v1 kind: ConfigMap metadata: name: aws-auth namespace: kube-system data: mapRoles: | - rolearn: &amp;lt;COLOQUE O ID DO SERVICE ROLE ARN DO CLOUD FORMATION AQUI&amp;gt; username: system:node:{{EC2PrivateDNSName}} groups: - system:bootstrappers - system:nodes  Configure o KUBECTL utilizando arquivo criado acima</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -15,7 +15,7 @@
     <link rel="shortcut icon" href="../../images/favicon.ico" type="image/x-icon" />
 <link rel="icon" href="../../images/favicon.ico" type="image/x-icon" />
 
-    <title>Direct Connect :: Unicorn Ranch</title>
+    <title>Pré-requisitos :: Unicorn Ranch</title>
 
     
     <link href="../../css/nucleus.css?1557456448" rel="stylesheet">
@@ -47,7 +47,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/produtos/direct_connect/">
+  <body class="" data-url="/eks/pre-req/">
     <nav id="sidebar" class="">
 
 
@@ -88,7 +88,7 @@
   
     
     <li data-nav-id="/produtos/" title="Produtos e Soluções" class="dd-item 
-        parent
+        
         
         
         ">
@@ -112,7 +112,7 @@
  
   
     
-      <li data-nav-id="/produtos/direct_connect/" title="Direct Connect" class="dd-item active">
+      <li data-nav-id="/produtos/direct_connect/" title="Direct Connect" class="dd-item ">
         <a href="../../produtos/direct_connect/">
         Direct Connect
         
@@ -139,7 +139,7 @@
   
     
     <li data-nav-id="/eks/" title="EKS" class="dd-item 
-        
+        parent
         
         
         ">
@@ -163,7 +163,7 @@
  
   
     
-      <li data-nav-id="/eks/pre-req/" title="Pré-requisitos" class="dd-item ">
+      <li data-nav-id="/eks/pre-req/" title="Pré-requisitos" class="dd-item active">
         <a href="../../eks/pre-req/">
         Pré-requisitos
         
@@ -363,7 +363,7 @@
                   
                   
                   <div id="top-github-link">
-                    <a class="github-link" title='Edit this page' href="https://github.com/UnicornRanch/unicornranch/blob/master/content/produtos/direct_connect.md" target="blank">
+                    <a class="github-link" title='Edit this page' href="https://github.com/UnicornRanch/unicornranch/blob/master/content/eks/pre-req.md" target="blank">
                       <i class="fas fa-code-branch"></i>
                       <span id="top-github-link-text">Edit this page</span>
                     </a>
@@ -392,7 +392,7 @@
             
           
           
-            <a href='../../'>Unicorn Ranch</a> > <a href='../../produtos/'>Produtos e Soluções</a> > Direct Connect
+            <a href='../../'>Unicorn Ranch</a> > <a href='../../eks/'>EKS</a> > Pré-requisitos
           
          
           
@@ -410,13 +410,9 @@
 <ul>
 <li>
 <ul>
-<li>
+<li><a href="#para-macos">Para MACOS</a>
 <ul>
-<li><a href="#sobre">Sobre</a></li>
-<li><a href="#casos-de-uso">Casos de uso</a></li>
-<li><a href="#preço">Preço</a></li>
-<li><a href="#vídeos">Vídeos</a></li>
-<li><a href="#documentos">Documentos</a></li>
+<li><a href="#instalação-eksctl">Instalação EKSCTL</a></li>
 </ul></li>
 </ul></li>
 </ul></li>
@@ -433,7 +429,7 @@
         
         <div id="body-inner">
           
-            <h1>Direct Connect</h1>
+            <h1>Pré-requisitos</h1>
           
 
         
@@ -441,45 +437,23 @@
 
 
 
-<h4 id="sobre">Sobre</h4>
+<h3 id="para-macos">Para MACOS</h3>
 
-<ul>
-<li>Compatível com todos os serviços AWS que acessam a internet.</li>
-<li>Reduz custos de transferência out-bound com o ambiente de cloud, custos de in-bound se mantém gratuitos.</li>
-<li>Página principal do produto: <a href="https://aws.amazon.com/directconnect/" target="_blank">https://aws.amazon.com/directconnect/</a></li>
-</ul>
+<p>Instale KUBECTL
+Instale e configure o AWSCLI</p>
 
-<h4 id="casos-de-uso">Casos de uso</h4>
+<h4 id="instalação-eksctl">Instalação EKSCTL</h4>
 
-<ul>
-<li>Quantidades massivas de dados, quando é necessário mover grandes quantidades de dados sistematicamente.</li>
-<li>Workloads de vídeo, voz streamming, entre outros.</li>
-<li>Ambientes híbridos, quando é necessário interligar ambientes off-prem com a cloud.</li>
-</ul>
+<p>Utilizando brew, instale o repositorio e depois instale o eksctl</p>
 
-<h4 id="preço">Preço</h4>
+<pre><code>brew tap weaveworks/tap
+brew install weaveworks/tap/eksctl
+</code></pre>
 
-<ul>
-<li>Preço é composto por 2 componentes:
+<p>Verifique a instalação:</p>
 
-<ul>
-<li>porta de acesso (1G ou 10G )</li>
-<li>custo do tráfego out-bound</li>
-</ul></li>
-</ul>
-
-<h4 id="vídeos">Vídeos</h4>
-
-<ul>
-<li><a href="https://youtu.be/lN2RybC9Vbk" target="_blank">(NET301) Extending Data Centers to the Cloud: Connectivity Options and Co</a></li>
-</ul>
-
-<h4 id="documentos">Documentos</h4>
-
-<ul>
-<li><a href="https://aws-crm.my.salesforce.com/sfc/#version?selectedDocumentId=06938000001xz7v" target="_blank">(NET201) VPC Fundamentals and Connectivity Options</a></li>
-<li><a href="https://aws-crm.my.salesforce.com/sfc/#version?selectedDocumentId=06938000001xzfl" target="_blank">(NET406) Deep Dive: AWS Direct Connect and VPNs</a></li>
-</ul>
+<pre><code>eksctl version
+</code></pre>
 
 
 <footer class=" footline" >
@@ -518,40 +492,6 @@
             
                 
                     
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
                         
                         
                     
@@ -579,10 +519,28 @@
             
         
                     
+            
+        
+                    
                         
             
             
                 
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
                     
                 
                 
@@ -595,26 +553,13 @@
             
         
                     
-            
-        
-                    
                         
             
             
                 
                     
-                
-                
-
-                    
-                    
-                    
-
-                    
                         
-            
-            
-                
+                        
                     
                 
                 
@@ -662,6 +607,38 @@
             
         
                     
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
             
         
 
@@ -669,10 +646,10 @@
 
 
         
-            <a class="nav nav-prev" href="../../produtos/" title="Produtos e Soluções"> <i class="fas fa-chevron-left"></i></a>
+            <a class="nav nav-prev" href="../../eks/" title="EKS"> <i class="fas fa-chevron-left"></i></a>
         
         
-            <a class="nav nav-next" href="../../eks/" title="EKS" style="margin-right: 0px;"><i class="fas fa-chevron-right"></i></a>
+            <a class="nav nav-next" href="../../eks/eks/" title="EKS" style="margin-right: 0px;"><i class="fas fa-chevron-right"></i></a>
         
     </div>
 

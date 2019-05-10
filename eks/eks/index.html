@@ -18,21 +18,21 @@
     <title>EKS :: Unicorn Ranch</title>
 
     
-    <link href="../../css/nucleus.css?1557338730" rel="stylesheet">
-    <link href="../../css/fontawesome-all.min.css?1557338730" rel="stylesheet">
-    <link href="../../css/hybrid.css?1557338730" rel="stylesheet">
-    <link href="../../css/featherlight.min.css?1557338730" rel="stylesheet">
-    <link href="../../css/perfect-scrollbar.min.css?1557338730" rel="stylesheet">
-    <link href="../../css/auto-complete.css?1557338730" rel="stylesheet">
-    <link href="../../css/theme.css?1557338730" rel="stylesheet">
-    <link href="../../css/hugo-theme.css?1557338730" rel="stylesheet">
-    <link href="../../css/jquery-ui.min.css?1557338730" rel="stylesheet">
+    <link href="../../css/nucleus.css?1557456448" rel="stylesheet">
+    <link href="../../css/fontawesome-all.min.css?1557456448" rel="stylesheet">
+    <link href="../../css/hybrid.css?1557456448" rel="stylesheet">
+    <link href="../../css/featherlight.min.css?1557456448" rel="stylesheet">
+    <link href="../../css/perfect-scrollbar.min.css?1557456448" rel="stylesheet">
+    <link href="../../css/auto-complete.css?1557456448" rel="stylesheet">
+    <link href="../../css/theme.css?1557456448" rel="stylesheet">
+    <link href="../../css/hugo-theme.css?1557456448" rel="stylesheet">
+    <link href="../../css/jquery-ui.min.css?1557456448" rel="stylesheet">
     
-      <link href="../../css/theme-mine.css?1557338730" rel="stylesheet">
+      <link href="../../css/theme-mine.css?1557456448" rel="stylesheet">
     
 
-    <script src="../../js/jquery-3.3.1.min.js?1557338730"></script>
-    <script src="../../js/jquery-ui-1.12.1.min.js?1557338730"></script>
+    <script src="../../js/jquery-3.3.1.min.js?1557456448"></script>
+    <script src="../../js/jquery-ui-1.12.1.min.js?1557456448"></script>
 
 
     <style type="text/css">
@@ -47,7 +47,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/workshops/eks/">
+  <body class="" data-url="/eks/eks/">
     <nav id="sidebar" class="">
 
 
@@ -64,14 +64,14 @@
     <span data-search-clear=""><i class="fas fa-close"></i></span>
 </div>
 
-<script type="text/javascript" src="../../js/lunr.min.js?1557338730"></script>
-<script type="text/javascript" src="../../js/auto-complete.js?1557338730"></script>
+<script type="text/javascript" src="../../js/lunr.min.js?1557456448"></script>
+<script type="text/javascript" src="../../js/auto-complete.js?1557456448"></script>
 <script type="text/javascript">
     
         var baseurl = '\/';
     
 </script>
-<script type="text/javascript" src="../../js/search.js?1557338730"></script>
+<script type="text/javascript" src="../../js/search.js?1557456448"></script>
 
     
   </div>
@@ -138,13 +138,13 @@
  
   
     
-    <li data-nav-id="/workshops/" title="Workshops" class="dd-item 
+    <li data-nav-id="/eks/" title="EKS" class="dd-item 
         parent
         
         
         ">
-      <a href="../../workshops/">
-          Workshops
+      <a href="../../eks/">
+          EKS
           
       </a>
       
@@ -163,8 +163,27 @@
  
   
     
-      <li data-nav-id="/workshops/eks/" title="EKS" class="dd-item active">
-        <a href="../../workshops/eks/">
+      <li data-nav-id="/eks/pre-req/" title="Pré-requisitos" class="dd-item ">
+        <a href="../../eks/pre-req/">
+        Pré-requisitos
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/eks/eks/" title="EKS" class="dd-item active">
+        <a href="../../eks/eks/">
         EKS
         
         </a>
@@ -344,7 +363,7 @@
                   
                   
                   <div id="top-github-link">
-                    <a class="github-link" title='Edit this page' href="https://github.com/UnicornRanch/unicornranch/blob/master/content/workshops/eks.md" target="blank">
+                    <a class="github-link" title='Edit this page' href="https://github.com/UnicornRanch/unicornranch/blob/master/content/eks/eks.md" target="blank">
                       <i class="fas fa-code-branch"></i>
                       <span id="top-github-link-text">Edit this page</span>
                     </a>
@@ -373,7 +392,7 @@
             
           
           
-            <a href='../../'>Unicorn Ranch</a> > <a href='../../workshops/'>Workshops</a> > EKS
+            <a href='../../'>Unicorn Ranch</a> > <a href='../../eks/'>EKS</a> > EKS
           
          
           
@@ -389,14 +408,10 @@
 <ul>
 <li>
 <ul>
-<li><a href="#eks-instalação-e-configuração">EKS Instalação e Configuração</a>
+<li>
 <ul>
 <li>
 <ul>
-<li><a href="#sobre">Sobre</a></li>
-<li><a href="#pré-requisitos">Pré-requisitos</a></li>
-<li><a href="#instalação">Instalação</a></li>
-<li><a href="#instalação-eksctl">Instalação EKSCTL</a></li>
 <li><a href="#criação-do-cluster-eks">Criação do cluster EKS</a></li>
 <li><a href="#configuração-do-kubectl">Configuração do KUBECTL</a></li>
 <li><a href="#configure-o-dashboard">Configure o Dashboard</a></li>
@@ -423,32 +438,6 @@
 
 
 
-
-<h2 id="eks-instalação-e-configuração">EKS Instalação e Configuração</h2>
-
-<h4 id="sobre">Sobre</h4>
-
-<p>Página principal do produto:</p>
-
-<h4 id="pré-requisitos">Pré-requisitos</h4>
-
-<p>Instale KUBECTL
-Instale e configure o AWSCLI</p>
-
-<h4 id="instalação">Instalação</h4>
-
-<h4 id="instalação-eksctl">Instalação EKSCTL</h4>
-
-<p>Utilizando brew, instale o repositorio e depois instale o eksctl</p>
-
-<pre><code>brew tap weaveworks/tap
-brew install weaveworks/tap/eksctl
-</code></pre>
-
-<p>Verifique a instalação:</p>
-
-<pre><code>eksctl version
-</code></pre>
 
 <h4 id="criação-do-cluster-eks">Criação do cluster EKS</h4>
 
@@ -590,6 +579,25 @@ data:
             
                 
                     
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
                     
                 
                 
@@ -679,7 +687,7 @@ data:
 
 
         
-            <a class="nav nav-prev" href="../../workshops/" title="Workshops"> <i class="fas fa-chevron-left"></i></a>
+            <a class="nav nav-prev" href="../../eks/pre-req/" title="Pré-requisitos"> <i class="fas fa-chevron-left"></i></a>
         
         
             <a class="nav nav-next" href="../../projetos/" title="Projetos" style="margin-right: 0px;"><i class="fas fa-chevron-right"></i></a>
@@ -691,20 +699,20 @@ data:
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="../../js/clipboard.min.js?1557338730"></script>
-    <script src="../../js/perfect-scrollbar.min.js?1557338730"></script>
-    <script src="../../js/perfect-scrollbar.jquery.min.js?1557338730"></script>
-    <script src="../../js/jquery.sticky.js?1557338730"></script>
-    <script src="../../js/featherlight.min.js?1557338730"></script>
-    <script src="../../js/html5shiv-printshiv.min.js?1557338730"></script>
-    <script src="../../js/highlight.pack.js?1557338730"></script>
+    <script src="../../js/clipboard.min.js?1557456448"></script>
+    <script src="../../js/perfect-scrollbar.min.js?1557456448"></script>
+    <script src="../../js/perfect-scrollbar.jquery.min.js?1557456448"></script>
+    <script src="../../js/jquery.sticky.js?1557456448"></script>
+    <script src="../../js/featherlight.min.js?1557456448"></script>
+    <script src="../../js/html5shiv-printshiv.min.js?1557456448"></script>
+    <script src="../../js/highlight.pack.js?1557456448"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="../../js/modernizr.custom.71422.js?1557338730"></script>
-    <script src="../../js/learn.js?1557338730"></script>
-    <script src="../../js/hugo-learn.js?1557338730"></script>
+    <script src="../../js/modernizr.custom.71422.js?1557456448"></script>
+    <script src="../../js/learn.js?1557456448"></script>
+    <script src="../../js/hugo-learn.js?1557456448"></script>
 
-    <link href="../../mermaid/mermaid.css?1557338730" type="text/css" rel="stylesheet" />
-    <script src="../../mermaid/mermaid.min.js?1557338730"></script>
+    <link href="../../mermaid/mermaid.css?1557456448" type="text/css" rel="stylesheet" />
+    <script src="../../mermaid/mermaid.min.js?1557456448"></script>
     <script>
 	var config = {
         startOnLoad:true,
