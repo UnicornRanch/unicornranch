@@ -4,35 +4,6 @@ date: 2019-05-02
 weight: 1
 draft: false
 ---
-
-## EKS Instalação e Configuração 
-
-#### Sobre
-
-Página principal do produto: 
-
-#### Pré-requisitos 
-
-Instale KUBECTL 
-Instale e configure o AWSCLI 
-
-
-#### Instalação 
-
-#### Instalação EKSCTL 
-
-Utilizando brew, instale o repositorio e depois instale o eksctl 
-```
-brew tap weaveworks/tap
-brew install weaveworks/tap/eksctl
-```
-
-Verifique a instalação:
-````
-eksctl version
-````
-
-
 #### Criação do cluster EKS
 
 Criação do cluster EKS
