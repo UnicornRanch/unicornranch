@@ -1,9 +1,11 @@
 ---
-title: "EKS"
+title: "Criando o cluster EKS"
 date: 2019-05-02 
 weight: 1
 draft: false
 ---
+updated: 2019-05-12
+
 #### Criação do cluster EKS
 
 Criação do cluster EKS
