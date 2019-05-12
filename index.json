@@ -1,17 +1,17 @@
 [
 {
-	"uri": "/eks/pre-req/",
+	"uri": "/eks/pre_req/",
 	"title": "Pré-requisitos",
 	"tags": [],
 	"description": "",
-	"content": " Para MACOS Instale KUBECTL Instale e configure o AWSCLI\nInstalação EKSCTL Utilizando brew, instale o repositorio e depois instale o eksctl\nbrew tap weaveworks/tap brew install weaveworks/tap/eksctl  Verifique a instalação:\neksctl version  "
+	"content": " update: 2019-05-12\nPara MACOS Instale KUBECTL brew install kubectl  Instale e configure o AWSCLI Baixe o bundle do AWSCLI do repositório oficial\ncurl \u0026quot;https://s3.amazonaws.com/aws-cli/awscli-bundle.zip\u0026quot; -o \u0026quot;awscli-bundle.zip\u0026quot;  Descompacte o pacote\nunzip awscli-bundle.zip  Instale utilizando o commando abaixo\nsudo ./awscli-bundle/install -i /usr/local/aws -b /usr/local/bin/aws  Mais informação no link\nInstalação EKSCTL Utilizando brew, instale o repositorio e depois instale o eksctl\nbrew tap weaveworks/tap brew install weaveworks/tap/eksctl  Verifique a instalação:\neksctl version  "
 },
 {
-	"uri": "/eks/eks/",
-	"title": "EKS",
+	"uri": "/eks/cluster_eks/",
+	"title": "Criando o cluster EKS",
 	"tags": [],
 	"description": "",
-	"content": " Criação do cluster EKS Criação do cluster EKS\neksctl create cluster --name=eksworkshop-eksctl --nodes=3 --node-ami=auto --region=${AWS_REGION}  Entre no console do CloudFormation e copie o ServiceRoleARN, iremos utilizar esse id no arquivo abaixo.\nConfiguração do KUBECTL Crie o arquivo aws-auth-cm.yaml\napiVersion: v1 kind: ConfigMap metadata: name: aws-auth namespace: kube-system data: mapRoles: | - rolearn: \u0026lt;COLOQUE O ID DO SERVICE ROLE ARN DO CLOUD FORMATION AQUI\u0026gt; username: system:node:{{EC2PrivateDNSName}} groups: - system:bootstrappers - system:nodes  Configure o KUBECTL utilizando arquivo criado acima\nkubectl apply -f aws-auth-cm.yaml  Verifique se o kuibectl está funcionando e check os nodes\nkubectl get nodes  Configure o Dashboard Instale o dashboard oficial\nkubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v1.10.1/src/deploy/recommended/kubernetes-dashboard.yaml  Execute o proxy\nkubectl proxy \u0026amp;  Pegue o token de segurança para acesso ao proxy\nkubectl -n kube-system describe secret $(kubectl -n kube-system get secret | grep eks-admin | awk '{print $1}')  "
+	"content": " updated: 2019-05-12\nCriação do cluster EKS Criação do cluster EKS\neksctl create cluster --name=eksworkshop-eksctl --nodes=3 --node-ami=auto --region=${AWS_REGION}  Entre no console do CloudFormation e copie o ServiceRoleARN, iremos utilizar esse id no arquivo abaixo.\nConfiguração do KUBECTL Crie o arquivo aws-auth-cm.yaml\napiVersion: v1 kind: ConfigMap metadata: name: aws-auth namespace: kube-system data: mapRoles: | - rolearn: \u0026lt;COLOQUE O ID DO SERVICE ROLE ARN DO CLOUD FORMATION AQUI\u0026gt; username: system:node:{{EC2PrivateDNSName}} groups: - system:bootstrappers - system:nodes  Configure o KUBECTL utilizando arquivo criado acima\nkubectl apply -f aws-auth-cm.yaml  Verifique se o kuibectl está funcionando e check os nodes\nkubectl get nodes  Configure o Dashboard Instale o dashboard oficial\nkubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v1.10.1/src/deploy/recommended/kubernetes-dashboard.yaml  Execute o proxy\nkubectl proxy \u0026amp;  Pegue o token de segurança para acesso ao proxy\nkubectl -n kube-system describe secret $(kubectl -n kube-system get secret | grep eks-admin | awk '{print $1}')  "
 },
 {
 	"uri": "/projetos/dispenser/",

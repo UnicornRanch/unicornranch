@@ -3,12 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/eks/pre-req/</loc>
+    <loc>/eks/pre_req/</loc>
     <lastmod>2019-05-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/eks/eks/</loc>
+    <loc>/eks/cluster_eks/</loc>
     <lastmod>2019-05-02T00:00:00+00:00</lastmod>
   </url>
   

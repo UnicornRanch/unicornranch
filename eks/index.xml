@@ -13,23 +13,27 @@
     
     <item>
       <title>Pré-requisitos</title>
-      <link>/eks/pre-req/</link>
+      <link>/eks/pre_req/</link>
       <pubDate>Thu, 09 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>/eks/pre-req/</guid>
-      <description> Para MACOS Instale KUBECTL Instale e configure o AWSCLI
+      <guid>/eks/pre_req/</guid>
+      <description>update: 2019-05-12
+Para MACOS Instale KUBECTL brew install kubectl  Instale e configure o AWSCLI Baixe o bundle do AWSCLI do repositório oficial
+curl &amp;quot;https://s3.amazonaws.com/aws-cli/awscli-bundle.zip&amp;quot; -o &amp;quot;awscli-bundle.zip&amp;quot;  Descompacte o pacote
+unzip awscli-bundle.zip  Instale utilizando o commando abaixo
+sudo ./awscli-bundle/install -i /usr/local/aws -b /usr/local/bin/aws  Mais informação no link
 Instalação EKSCTL Utilizando brew, instale o repositorio e depois instale o eksctl
-brew tap weaveworks/tap brew install weaveworks/tap/eksctl  Verifique a instalação:
-eksctl version  </description>
+brew tap weaveworks/tap brew install weaveworks/tap/eksctl  Verifique a instalação:</description>
     </item>
     
     <item>
-      <title>EKS</title>
-      <link>/eks/eks/</link>
+      <title>Criando o cluster EKS</title>
+      <link>/eks/cluster_eks/</link>
       <pubDate>Thu, 02 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>/eks/eks/</guid>
-      <description>Criação do cluster EKS Criação do cluster EKS
+      <guid>/eks/cluster_eks/</guid>
+      <description>updated: 2019-05-12
+Criação do cluster EKS Criação do cluster EKS
 eksctl create cluster --name=eksworkshop-eksctl --nodes=3 --node-ami=auto --region=${AWS_REGION}  Entre no console do CloudFormation e copie o ServiceRoleARN, iremos utilizar esse id no arquivo abaixo.
 Configuração do KUBECTL Crie o arquivo aws-auth-cm.yaml
 apiVersion: v1 kind: ConfigMap metadata: name: aws-auth namespace: kube-system data: mapRoles: | - rolearn: &amp;lt;COLOQUE O ID DO SERVICE ROLE ARN DO CLOUD FORMATION AQUI&amp;gt; username: system:node:{{EC2PrivateDNSName}} groups: - system:bootstrappers - system:nodes  Configure o KUBECTL utilizando arquivo criado acima</description>
