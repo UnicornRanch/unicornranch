@@ -4,7 +4,7 @@ date: 2019-05-09
 weight: 1
 draft: false
 ---
-update: 2019-05-12
+updated: 2019-05-12
 
 ### Para MACOS
 
