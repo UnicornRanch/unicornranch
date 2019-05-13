@@ -1,7 +1,7 @@
 ---
 title: "EKS"
 chapter: true
-weight: 2
+weight: 1
 draft: false
 ---
 

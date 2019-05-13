@@ -2,7 +2,7 @@
 title: "Frequently Asked Questions"
 chapter: true
 weight: 99
-draft: false
+draft: true
 ---
 
 # FAQ
