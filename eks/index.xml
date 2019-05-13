@@ -17,7 +17,7 @@
       <pubDate>Thu, 09 May 2019 00:00:00 +0000</pubDate>
       
       <guid>/eks/pre_req/</guid>
-      <description>update: 2019-05-12
+      <description>updated: 2019-05-12
 Para MACOS Instale KUBECTL brew install kubectl  Instale e configure o AWSCLI Baixe o bundle do AWSCLI do repositório oficial
 curl &amp;quot;https://s3.amazonaws.com/aws-cli/awscli-bundle.zip&amp;quot; -o &amp;quot;awscli-bundle.zip&amp;quot;  Descompacte o pacote
 unzip awscli-bundle.zip  Instale utilizando o commando abaixo
