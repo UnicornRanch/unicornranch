@@ -1,5 +1,5 @@
 ---
-title: "Unicorn Ranch"
+title: "VMware HCX"
 chapter: true
 weight: 1
 ---
