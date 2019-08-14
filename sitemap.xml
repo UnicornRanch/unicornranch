@@ -28,16 +28,16 @@
   </url>
   
   <url>
-    <loc>/vmware-on-aws-/vmware-hcx/dispenser/</loc>
-  </url>
-  
-  <url>
-    <loc>/vmware-on-aws/vmware-hcx/</loc>
+    <loc>/vmware-on-aws-/vmware-hcx/prereq/</loc>
   </url>
   
   <url>
     <loc>/</loc>
     <lastmod>2019-05-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/vmware-on-aws/vmware-hcx/</loc>
   </url>
   
   <url>

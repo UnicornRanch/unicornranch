@@ -35,22 +35,22 @@
 	"content": " EKS Workshop sobre EKS\n"
 },
 {
-	"uri": "/vmware-on-aws-/vmware-hcx/dispenser/",
+	"uri": "/vmware-on-aws-/vmware-hcx/prereq/",
 	"title": "Requiriments",
 	"tags": [],
 	"description": "",
-	"content": " On premises environment  Hardware\n at least one server with 8 Cores and 64 GB RAM  Software\n VMware VCenter 6.7 + ESXi + VMware HCX ( NSX is not required for this lab )   On VMware Cloud on AWS  The stack created is enough, just need to deploy the HCX on portal and open the firewall ports to acess the vCenter and HCX, I\u0026rsquo;ll explain it in the next chapter  (fast draft of requirements)\n"
+	"content": " On premises environment  Hardware  at least one server with 8 Cores and 64 GB RAM  Software\n VMware VCenter 6.7 + ESXi + VMware HCX ( NSX is not required for this lab )   On VMware Cloud on AWS  The stack created is enough, just need to deploy the HCX on portal and open the firewall ports to acess the vCenter and HCX, I\u0026rsquo;ll explain it in the next chapter  (fast draft of requirements)\n"
 },
 {
-	"uri": "/vmware-on-aws/vmware-hcx/",
+	"uri": "/",
 	"title": "Unicorn Ranch",
 	"tags": [],
 	"description": "",
 	"content": "Unicorn Ranch Project Essa página é uma inicativa de auxiliar parceiros e clientes na utilização das soluções AWS.\n"
 },
 {
-	"uri": "/",
-	"title": "Unicorn Ranch",
+	"uri": "/vmware-on-aws/vmware-hcx/",
+	"title": "VMware HCX",
 	"tags": [],
 	"description": "",
 	"content": "Unicorn Ranch Project Essa página é uma inicativa de auxiliar parceiros e clientes na utilização das soluções AWS.\n"
