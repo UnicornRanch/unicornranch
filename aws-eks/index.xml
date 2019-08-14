@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>EKS on Unicorn Ranch</title>
-    <link>/eks/</link>
+    <link>/aws-eks/</link>
     <description>Recent content in EKS on Unicorn Ranch</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 09 May 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/eks/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/aws-eks/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Pré-requisitos</title>
-      <link>/eks/pre_req/</link>
+      <link>/aws-eks/pre_req/</link>
       <pubDate>Thu, 09 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>/eks/pre_req/</guid>
+      <guid>/aws-eks/pre_req/</guid>
       <description>updated: 2019-05-12
 Para MACOS Instale KUBECTL brew install kubectl  Instale e configure o AWSCLI Baixe o bundle do AWSCLI do repositório oficial
 curl &amp;quot;https://s3.amazonaws.com/aws-cli/awscli-bundle.zip&amp;quot; -o &amp;quot;awscli-bundle.zip&amp;quot;  Descompacte o pacote
@@ -28,10 +28,10 @@ brew tap weaveworks/tap brew install weaveworks/tap/eksctl  Verifique a instala�
     
     <item>
       <title>Criando o cluster EKS</title>
-      <link>/eks/cluster_eks/</link>
+      <link>/aws-eks/cluster_eks/</link>
       <pubDate>Thu, 02 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>/eks/cluster_eks/</guid>
+      <guid>/aws-eks/cluster_eks/</guid>
       <description>updated: 2019-05-12
 Criação do cluster EKS Criação do cluster EKS
 eksctl create cluster --name=eksworkshop-eksctl --nodes=3 --node-ami=auto --region=${AWS_REGION}  Entre no console do CloudFormation e copie o ServiceRoleARN, iremos utilizar esse id no arquivo abaixo.

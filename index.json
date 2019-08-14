@@ -1,13 +1,13 @@
 [
 {
-	"uri": "/eks/pre_req/",
+	"uri": "/aws-eks/pre_req/",
 	"title": "Pré-requisitos",
 	"tags": [],
 	"description": "",
 	"content": " updated: 2019-05-12\nPara MACOS Instale KUBECTL brew install kubectl  Instale e configure o AWSCLI Baixe o bundle do AWSCLI do repositório oficial\ncurl \u0026quot;https://s3.amazonaws.com/aws-cli/awscli-bundle.zip\u0026quot; -o \u0026quot;awscli-bundle.zip\u0026quot;  Descompacte o pacote\nunzip awscli-bundle.zip  Instale utilizando o commando abaixo\nsudo ./awscli-bundle/install -i /usr/local/aws -b /usr/local/bin/aws  Mais informação no link\nInstalação EKSCTL Utilizando brew, instale o repositorio e depois instale o eksctl\nbrew tap weaveworks/tap brew install weaveworks/tap/eksctl  Verifique a instalação:\neksctl version  "
 },
 {
-	"uri": "/eks/cluster_eks/",
+	"uri": "/aws-eks/cluster_eks/",
 	"title": "Criando o cluster EKS",
 	"tags": [],
 	"description": "",
@@ -28,11 +28,25 @@
 	"content": " Sobre  Compatível com todos os serviços AWS que acessam a internet. Reduz custos de transferência out-bound com o ambiente de cloud, custos de in-bound se mantém gratuitos. Página principal do produto: https://aws.amazon.com/directconnect/  Casos de uso  Quantidades massivas de dados, quando é necessário mover grandes quantidades de dados sistematicamente. Workloads de vídeo, voz streamming, entre outros. Ambientes híbridos, quando é necessário interligar ambientes off-prem com a cloud.  Preço  Preço é composto por 2 componentes:  porta de acesso (1G ou 10G ) custo do tráfego out-bound   Vídeos  (NET301) Extending Data Centers to the Cloud: Connectivity Options and Co  Documentos  (NET201) VPC Fundamentals and Connectivity Options (NET406) Deep Dive: AWS Direct Connect and VPNs  "
 },
 {
-	"uri": "/eks/",
+	"uri": "/aws-eks/",
 	"title": "EKS",
 	"tags": [],
 	"description": "",
 	"content": " EKS Workshop sobre EKS\n"
+},
+{
+	"uri": "/vmware-on-aws-/vmware-hcx/dispenser/",
+	"title": "Requiriments",
+	"tags": [],
+	"description": "",
+	"content": " On premises environment  Hardware\n at least one server with 8 Cores and 64 GB RAM  Software\n VMware VCenter 6.7 + ESXi + VMware HCX ( NSX is not required for this lab )   On VMware Cloud on AWS  The stack created is enough, just need to deploy the HCX on portal and open the firewall ports to acess the vCenter and HCX, I\u0026rsquo;ll explain it in the next chapter  (fast draft of requirements)\n"
+},
+{
+	"uri": "/vmware-on-aws/vmware-hcx/",
+	"title": "Unicorn Ranch",
+	"tags": [],
+	"description": "",
+	"content": "Unicorn Ranch Project Essa página é uma inicativa de auxiliar parceiros e clientes na utilização das soluções AWS.\n"
 },
 {
 	"uri": "/",
@@ -40,6 +54,13 @@
 	"tags": [],
 	"description": "",
 	"content": "Unicorn Ranch Project Essa página é uma inicativa de auxiliar parceiros e clientes na utilização das soluções AWS.\n"
+},
+{
+	"uri": "/vmware-on-aws/",
+	"title": "VMware on AWS",
+	"tags": [],
+	"description": "",
+	"content": "Unicorn Ranch Project This is a simple guide to explain and deploy VMware on AWS.\n"
 },
 {
 	"uri": "/projetos/",

@@ -3,12 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/eks/pre_req/</loc>
+    <loc>/aws-eks/pre_req/</loc>
     <lastmod>2019-05-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/eks/cluster_eks/</loc>
+    <loc>/aws-eks/cluster_eks/</loc>
     <lastmod>2019-05-02T00:00:00+00:00</lastmod>
   </url>
   
@@ -23,13 +23,25 @@
   </url>
   
   <url>
-    <loc>/eks/</loc>
+    <loc>/aws-eks/</loc>
     <lastmod>2019-05-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/vmware-on-aws-/vmware-hcx/dispenser/</loc>
+  </url>
+  
+  <url>
+    <loc>/vmware-on-aws/vmware-hcx/</loc>
   </url>
   
   <url>
     <loc>/</loc>
     <lastmod>2019-05-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/vmware-on-aws/</loc>
   </url>
   
   <url>
