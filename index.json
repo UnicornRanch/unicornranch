@@ -39,7 +39,7 @@
 	"title": "Requiriments",
 	"tags": [],
 	"description": "",
-	"content": " On premises environment  Hardware  at least one server with 8 Cores and 64 GB RAM  Software\n VMware VCenter 6.7 + ESXi + VMware HCX ( NSX is not required for this lab )   On VMware Cloud on AWS  The stack created is enough, just need to deploy the HCX on portal and open the firewall ports to acess the vCenter and HCX, I\u0026rsquo;ll explain it in the next chapter  (fast draft of requirements)\n"
+	"content": " On premises environment  Hardware  at least one server with 8 Cores and 64 GB RAM  Software\n VMware VCenter 6.7 + ESXi + VMware HCX ( NSX is not required for this lab )   On VMware Cloud on AWS  The stack created is enough, just need to deploy the HCX on portal and open the firewall ports to access the vCenter and HCX, I\u0026rsquo;ll explain it in the next chapter  (fast draft of requirements)\n"
 },
 {
 	"uri": "/",
@@ -53,14 +53,14 @@
 	"title": "VMware HCX",
 	"tags": [],
 	"description": "",
-	"content": "Unicorn Ranch Project Essa página é uma inicativa de auxiliar parceiros e clientes na utilização das soluções AWS.\n"
+	"content": "VMware HCX Workshop "
 },
 {
 	"uri": "/vmware-on-aws/",
 	"title": "VMware on AWS",
 	"tags": [],
 	"description": "",
-	"content": "Unicorn Ranch Project This is a simple guide to explain and deploy VMware on AWS.\n"
+	"content": "VMware Cloud on AWS This is a simple guide to explain and deploy VMware on AWS.\n"
 },
 {
 	"uri": "/projetos/",
@@ -68,6 +68,13 @@
 	"tags": [],
 	"description": "",
 	"content": " Produtos e Soluções Nessa sessão, iremos detalhar os produtos e as soluções disponíveis e aonde é possível obter mais informações.\n"
+},
+{
+	"uri": "/vmware-on-aws-/vmware-hcx/connect/",
+	"title": "",
+	"tags": [],
+	"description": "",
+	"content": " 2\u0026mdash; title: \u0026ldquo;Connecting HCX\u0026rdquo; date: 2019-09-16 weight: 1\ndraft: false Connecting HCX "
 },
 {
 	"uri": "/categories/",
