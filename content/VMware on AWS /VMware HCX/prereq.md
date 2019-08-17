@@ -15,6 +15,6 @@ draft: false
 
 ### On VMware Cloud on AWS
 
-- The stack created is enough, just need to deploy the HCX on portal and open the firewall ports to acess the vCenter and HCX, I'll explain it in the next chapter
+- The stack created is enough, just need to deploy the HCX on portal and open the firewall ports to access the vCenter and HCX, I'll explain it in the next chapter
 
 (fast draft of requirements)
