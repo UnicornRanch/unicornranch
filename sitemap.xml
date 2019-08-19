@@ -50,10 +50,6 @@
   </url>
   
   <url>
-    <loc>/vmware-on-aws-/vmware-hcx/connect/</loc>
-  </url>
-  
-  <url>
     <loc>/categories/</loc>
     <priority>0</priority>
   </url>
