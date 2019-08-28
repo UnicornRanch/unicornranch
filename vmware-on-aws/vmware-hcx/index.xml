@@ -42,12 +42,34 @@
     </item>
     
     <item>
-      <title>Connecting HCX</title>
+      <title>Connecting HCXs</title>
       <link>/vmware-on-aws-/vmware-hcx/connect/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/vmware-on-aws-/vmware-hcx/connect/</guid>
-      <description> Connecting HCX </description>
+      <description>Connecting HCX &amp;hellip; soon&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Extending Networking</title>
+      <link>/vmware-on-aws-/vmware-hcx/ext-net/</link>
+      <pubDate>Tue, 27 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/vmware-on-aws-/vmware-hcx/ext-net/</guid>
+      <description> Open the HCX Console on-premises
+ Login into HCX Console.  Click on Network Extension  Extending:
+ Select the DSwitch vlan do you want extend Set the default gateway from this subnet Click into Extend button   Confirm the extend is correct.   </description>
+    </item>
+    
+    <item>
+      <title>Bulk Migration</title>
+      <link>/vmware-on-aws-/vmware-hcx/bulk-migration/</link>
+      <pubDate>Tue, 27 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/vmware-on-aws-/vmware-hcx/bulk-migration/</guid>
+      <description> Open the HCX Console on-premises
+ Login into HCX Console.  Click on Migration tab.  At the HXC: Migrate Virtual Machines:
+ select the VM Name to migration select storage at VMC on AWS select the type of migration select the network at VMC on AWS click in Finish button   Check the status at migration console.   </description>
     </item>
     
   </channel>

@@ -85,10 +85,24 @@
 },
 {
 	"uri": "/vmware-on-aws-/vmware-hcx/connect/",
-	"title": "Connecting HCX",
+	"title": "Connecting HCXs",
 	"tags": [],
 	"description": "",
-	"content": " Connecting HCX "
+	"content": " Connecting HCX \u0026hellip; soon\u0026hellip;\n"
+},
+{
+	"uri": "/vmware-on-aws-/vmware-hcx/ext-net/",
+	"title": "Extending Networking",
+	"tags": [],
+	"description": "",
+	"content": " Open the HCX Console on-premises\n Login into HCX Console.  Click on Network Extension  Extending:\n Select the DSwitch vlan do you want extend Set the default gateway from this subnet Click into Extend button   Confirm the extend is correct.   "
+},
+{
+	"uri": "/vmware-on-aws-/vmware-hcx/bulk-migration/",
+	"title": "Bulk Migration",
+	"tags": [],
+	"description": "",
+	"content": " Open the HCX Console on-premises\n Login into HCX Console.  Click on Migration tab.  At the HXC: Migrate Virtual Machines:\n select the VM Name to migration select storage at VMC on AWS select the type of migration select the network at VMC on AWS click in Finish button   Check the status at migration console.   "
 },
 {
 	"uri": "/categories/",
