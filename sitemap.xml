@@ -28,16 +28,13 @@
   </url>
   
   <url>
-    <loc>/vmware-on-aws-/vmware-hcx/prereq/</loc>
-  </url>
-  
-  <url>
     <loc>/</loc>
     <lastmod>2019-05-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/vmware-on-aws/vmware-hcx/</loc>
+    <lastmod>2019-08-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -45,8 +42,26 @@
   </url>
   
   <url>
+    <loc>/vmware-on-aws-/vmware-hcx/prereq/</loc>
+  </url>
+  
+  <url>
+    <loc>/vmware-on-aws-/vmware-hcx/deploy-on-vmc/</loc>
+    <lastmod>2019-08-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/projetos/</loc>
     <lastmod>2018-12-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/vmware-on-aws-/vmware-hcx/deploy-on-prem/</loc>
+    <lastmod>2019-08-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/vmware-on-aws-/vmware-hcx/connect/</loc>
   </url>
   
   <url>

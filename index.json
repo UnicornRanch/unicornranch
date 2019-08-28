@@ -35,13 +35,6 @@
 	"content": " EKS Workshop sobre EKS\n"
 },
 {
-	"uri": "/vmware-on-aws-/vmware-hcx/prereq/",
-	"title": "Requiriments",
-	"tags": [],
-	"description": "",
-	"content": " On premises environment  Hardware  at least one server with 8 Cores and 64 GB RAM  Software\n VMware VCenter 6.7 + ESXi + VMware HCX ( NSX is not required for this lab )   On VMware Cloud on AWS  The stack created is enough, just need to deploy the HCX on portal and open the firewall ports to access the vCenter and HCX, I\u0026rsquo;ll explain it in the next chapter  (fast draft of requirements)\n"
-},
-{
 	"uri": "/",
 	"title": "Unicorn Ranch",
 	"tags": [],
@@ -63,11 +56,39 @@
 	"content": "VMware Cloud on AWS This is a simple guide to explain and deploy VMware on AWS.\n"
 },
 {
+	"uri": "/vmware-on-aws-/vmware-hcx/prereq/",
+	"title": "Requiriments",
+	"tags": [],
+	"description": "",
+	"content": " On premises environment  Hardware  at least one server with 8 Cores and 64 GB RAM  Software\n VMware VCenter 6.7 + ESXi + VMware HCX ( NSX is not required for this lab )   On VMware Cloud on AWS  The stack created is enough, just need to deploy the HCX on portal and open the firewall ports to access the vCenter and HCX, I\u0026rsquo;ll explain it in the next chapter  (fast draft of requirements)\n"
+},
+{
+	"uri": "/vmware-on-aws-/vmware-hcx/deploy-on-vmc/",
+	"title": "Deploying HCX on VMC at AWS",
+	"tags": [],
+	"description": "",
+	"content": " Deploying HCX on VMC at AWS  Enter into VMC Console\n Found the tools tab.  Click in to deploy HCX.  After some minutes, your HCX is ready.  Open HCX.  Enter the same credentials provided for vCenter.   "
+},
+{
 	"uri": "/projetos/",
 	"title": "Projetos",
 	"tags": [],
 	"description": "",
 	"content": " Produtos e Soluções Nessa sessão, iremos detalhar os produtos e as soluções disponíveis e aonde é possível obter mais informações.\n"
+},
+{
+	"uri": "/vmware-on-aws-/vmware-hcx/deploy-on-prem/",
+	"title": "Deploying HCX on-premises",
+	"tags": [],
+	"description": "",
+	"content": " Create the Activation Key for HCX  Enter into VMC Console\n Open HCX Console.  Open HCX.  Enter the same credentials provided for vCenter.  Click on Activation Keys Tab  Click on Create Activation button.  Confirm the creation of the key.  Found the new activation key, this is the key you\u0026rsquo;ll use to activate your HCX on-prem.   "
+},
+{
+	"uri": "/vmware-on-aws-/vmware-hcx/connect/",
+	"title": "Connecting HCX",
+	"tags": [],
+	"description": "",
+	"content": " Connecting HCX "
 },
 {
 	"uri": "/categories/",
