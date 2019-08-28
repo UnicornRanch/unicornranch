@@ -37,8 +37,8 @@
       <pubDate>Tue, 27 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>/vmware-on-aws-/vmware-hcx/deploy-on-prem/</guid>
-      <description> Create the Activation Key for HCX  Enter into VMC Console
- Open HCX Console.  Open HCX.  Enter the same credentials provided for vCenter.  Click on Activation Keys Tab  Click on Create Activation button.  Confirm the creation of the key.  Found the new activation key, this is the key you&amp;rsquo;ll use to activate your HCX on-prem.   </description>
+      <description>Create the Activation Key for HCX  Enter into VMC Console
+ Open HCX Console.  Open HCX.  Enter the same credentials provided for vCenter.  Click on Activation Keys Tab  Click on Create Activation button.  Confirm the creation of the key.  Found the new activation key, this is the key you&amp;rsquo;ll use to activate your HCX on-prem.   Download the HCX appliance  Enter into VMC Console</description>
     </item>
     
     <item>
