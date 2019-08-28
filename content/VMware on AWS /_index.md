@@ -1,5 +1,6 @@
 ---
 title: "VMware on AWS"
+date: 2019-08-27
 chapter: true
 weight: 1
 ---
