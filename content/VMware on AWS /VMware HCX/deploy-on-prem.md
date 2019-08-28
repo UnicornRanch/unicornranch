@@ -30,5 +30,28 @@ draft: false
 - Found the new activation key, this is the key you'll use to activate your HCX on-prem.
 ![](/images/vmc/hcx/install-on-prem/03.png)
 
+#### Download the HCX appliance
+
+- Enter into VMC Console 
+
+- Open HCX Console.
+![](/images/vmc/hcx/deploy/03.png)
+
+- Open HCX.
+![](/images/vmc/hcx/deploy/04.png)
+
+- Enter the same credentials provided for vCenter.
+![](/images/vmc/hcx/deploy/05.png)
+
+- Click on System Updates tab 
+![](/images/vmc/hcx/install-on-prem/04.png)
+
+- Click on Request Download Link 
+![](/images/vmc/hcx/install-on-prem/05.png)
+
+- Click on VMware HCX button to download de OVA 
+![](/images/vmc/hcx/install-on-prem/06.png)
+
+- Deploy the HCX using OVA menu at vSphere Client as usual.
 
 
