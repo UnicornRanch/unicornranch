@@ -1,5 +1,5 @@
 ---
-title: "Requiriments"
+title: "Requirements"
 weight: 2
 draft: false
 ---
