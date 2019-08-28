@@ -1,5 +1,19 @@
 [
 {
+	"uri": "/vmware-on-aws/vmware-hcx/",
+	"title": "VMware HCX",
+	"tags": [],
+	"description": "",
+	"content": "VMware HCX Workshop "
+},
+{
+	"uri": "/vmware-on-aws/",
+	"title": "VMware on AWS",
+	"tags": [],
+	"description": "",
+	"content": "VMware Cloud on AWS This is a simple guide to explain and deploy VMware on AWS.\n"
+},
+{
 	"uri": "/aws-eks/pre_req/",
 	"title": "Pré-requisitos",
 	"tags": [],
@@ -40,20 +54,6 @@
 	"tags": [],
 	"description": "",
 	"content": "Unicorn Ranch Project Essa página é uma inicativa de auxiliar parceiros e clientes na utilização das soluções AWS.\n"
-},
-{
-	"uri": "/vmware-on-aws/vmware-hcx/",
-	"title": "VMware HCX",
-	"tags": [],
-	"description": "",
-	"content": "VMware HCX Workshop "
-},
-{
-	"uri": "/vmware-on-aws/",
-	"title": "VMware on AWS",
-	"tags": [],
-	"description": "",
-	"content": "VMware Cloud on AWS This is a simple guide to explain and deploy VMware on AWS.\n"
 },
 {
 	"uri": "/vmware-on-aws-/vmware-hcx/prereq/",

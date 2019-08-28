@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/vmware-on-aws/vmware-hcx/</loc>
+    <lastmod>2019-08-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/vmware-on-aws/</loc>
+    <lastmod>2019-08-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/aws-eks/pre_req/</loc>
     <lastmod>2019-05-09T00:00:00+00:00</lastmod>
   </url>
@@ -33,16 +43,8 @@
   </url>
   
   <url>
-    <loc>/vmware-on-aws/vmware-hcx/</loc>
-    <lastmod>2019-08-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/vmware-on-aws/</loc>
-  </url>
-  
-  <url>
     <loc>/vmware-on-aws-/vmware-hcx/prereq/</loc>
+    <lastmod>2019-08-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
