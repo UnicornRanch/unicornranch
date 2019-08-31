@@ -63,7 +63,13 @@
   </url>
   
   <url>
-    <loc>/vmware-on-aws-/vmware-hcx/connect/</loc>
+    <loc>/vmware-on-aws-/vmware-hcx/network-profile/</loc>
+    <lastmod>2019-08-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/vmware-on-aws-/vmware-hcx/site-pairing/</loc>
+    <lastmod>2019-08-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>

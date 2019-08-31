@@ -42,12 +42,23 @@
     </item>
     
     <item>
-      <title>Connecting HCXs</title>
-      <link>/vmware-on-aws-/vmware-hcx/connect/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Site pairing</title>
+      <link>/vmware-on-aws-/vmware-hcx/network-profile/</link>
+      <pubDate>Sat, 31 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>/vmware-on-aws-/vmware-hcx/connect/</guid>
-      <description>Connecting HCX &amp;hellip; soon&amp;hellip;</description>
+      <guid>/vmware-on-aws-/vmware-hcx/network-profile/</guid>
+      <description> Open the HCX Console on-premises
+ Login into HCX Console.  Click on connect to remote site.  Check the status on site pairing.   </description>
+    </item>
+    
+    <item>
+      <title>Site pairing</title>
+      <link>/vmware-on-aws-/vmware-hcx/site-pairing/</link>
+      <pubDate>Sat, 31 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/vmware-on-aws-/vmware-hcx/site-pairing/</guid>
+      <description> Open the HCX Console on-premises
+ Login into HCX Console.  Click on connect to remote site.  Check the status on site pairing.   </description>
     </item>
     
     <item>

@@ -84,11 +84,18 @@
 	"content": " Create the Activation Key for HCX  Enter into VMC Console\n Open HCX Console.  Open HCX.  Enter the same credentials provided for vCenter.  Click on Activation Keys Tab  Click on Create Activation button.  Confirm the creation of the key.  Found the new activation key, this is the key you\u0026rsquo;ll use to activate your HCX on-prem.   Download the HCX appliance  Enter into VMC Console\n Open HCX Console.  Open HCX.  Enter the same credentials provided for vCenter.  Click on System Updates tab  Click on Request Download Link  Click on VMware HCX button to download de OVA  Deploy the HCX using OVA menu at vSphere Client as usual.\n  "
 },
 {
-	"uri": "/vmware-on-aws-/vmware-hcx/connect/",
-	"title": "Connecting HCXs",
+	"uri": "/vmware-on-aws-/vmware-hcx/network-profile/",
+	"title": "Site pairing",
 	"tags": [],
 	"description": "",
-	"content": " Connecting HCX \u0026hellip; soon\u0026hellip;\n"
+	"content": " Open the HCX Console on-premises\n Login into HCX Console.  Click on connect to remote site.  Check the status on site pairing.   "
+},
+{
+	"uri": "/vmware-on-aws-/vmware-hcx/site-pairing/",
+	"title": "Site pairing",
+	"tags": [],
+	"description": "",
+	"content": " Open the HCX Console on-premises\n Login into HCX Console.  Click on connect to remote site.  Check the status on site pairing.   "
 },
 {
 	"uri": "/vmware-on-aws-/vmware-hcx/ext-net/",
