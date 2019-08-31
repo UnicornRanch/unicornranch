@@ -56,14 +56,14 @@
 	"content": "Unicorn Ranch Project Essa página é uma inicativa de auxiliar parceiros e clientes na utilização das soluções AWS.\n"
 },
 {
-	"uri": "/vmware-on-aws-/vmware-hcx/prereq/",
+	"uri": "/vmware-on-aws-/vmware-hcx/02_prereq/",
 	"title": "Requirements",
 	"tags": [],
 	"description": "",
 	"content": " On premises environment  Hardware  at least one server with 8 Cores and 64 GB RAM  Software\n VMware VCenter 6.7 + ESXi + VMware HCX ( NSX is not required for this lab )   On VMware Cloud on AWS  The stack created is enough, just need to deploy the HCX on portal and open the firewall ports to access the vCenter and HCX, I\u0026rsquo;ll explain it in the next chapter  (fast draft of requirements)\n"
 },
 {
-	"uri": "/vmware-on-aws-/vmware-hcx/deploy-on-vmc/",
+	"uri": "/vmware-on-aws-/vmware-hcx/03_deploy-on-vmc/",
 	"title": "Deploying HCX on VMC at AWS",
 	"tags": [],
 	"description": "",
@@ -77,7 +77,7 @@
 	"content": " Produtos e Soluções Nessa sessão, iremos detalhar os produtos e as soluções disponíveis e aonde é possível obter mais informações.\n"
 },
 {
-	"uri": "/vmware-on-aws-/vmware-hcx/deploy-on-prem/",
+	"uri": "/vmware-on-aws-/vmware-hcx/04_deploy-on-prem/",
 	"title": "Deploying HCX on-premises",
 	"tags": [],
 	"description": "",
@@ -85,20 +85,20 @@
 },
 {
 	"uri": "/vmware-on-aws-/vmware-hcx/network-profile/",
+	"title": "Network Profile",
+	"tags": [],
+	"description": "",
+	"content": " Open the HCX Console on-premises\n Login into HCX Console.  Create network profile:\n Set vCenter IP/Hostname; Select the network; Set IP Range (CIDR), gateway and DNS; Click on create.    "
+},
+{
+	"uri": "/vmware-on-aws-/vmware-hcx/05_site-pairing/",
 	"title": "Site pairing",
 	"tags": [],
 	"description": "",
 	"content": " Open the HCX Console on-premises\n Login into HCX Console.  Click on connect to remote site.  Check the status on site pairing.   "
 },
 {
-	"uri": "/vmware-on-aws-/vmware-hcx/site-pairing/",
-	"title": "Site pairing",
-	"tags": [],
-	"description": "",
-	"content": " Open the HCX Console on-premises\n Login into HCX Console.  Click on connect to remote site.  Check the status on site pairing.   "
-},
-{
-	"uri": "/vmware-on-aws-/vmware-hcx/ext-net/",
+	"uri": "/vmware-on-aws-/vmware-hcx/06_ext-net/",
 	"title": "Extending Networking",
 	"tags": [],
 	"description": "",

@@ -13,60 +13,61 @@
     
     <item>
       <title>Requirements</title>
-      <link>/vmware-on-aws-/vmware-hcx/prereq/</link>
+      <link>/vmware-on-aws-/vmware-hcx/02_prereq/</link>
       <pubDate>Tue, 27 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>/vmware-on-aws-/vmware-hcx/prereq/</guid>
+      <guid>/vmware-on-aws-/vmware-hcx/02_prereq/</guid>
       <description>On premises environment  Hardware  at least one server with 8 Cores and 64 GB RAM  Software
  VMware VCenter 6.7 + ESXi + VMware HCX ( NSX is not required for this lab )   On VMware Cloud on AWS  The stack created is enough, just need to deploy the HCX on portal and open the firewall ports to access the vCenter and HCX, I&amp;rsquo;ll explain it in the next chapter  (fast draft of requirements)</description>
     </item>
     
     <item>
       <title>Deploying HCX on VMC at AWS</title>
-      <link>/vmware-on-aws-/vmware-hcx/deploy-on-vmc/</link>
+      <link>/vmware-on-aws-/vmware-hcx/03_deploy-on-vmc/</link>
       <pubDate>Tue, 27 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>/vmware-on-aws-/vmware-hcx/deploy-on-vmc/</guid>
+      <guid>/vmware-on-aws-/vmware-hcx/03_deploy-on-vmc/</guid>
       <description> Deploying HCX on VMC at AWS  Enter into VMC Console
  Found the tools tab.  Click in to deploy HCX.  After some minutes, your HCX is ready.  Open HCX.  Enter the same credentials provided for vCenter.   </description>
     </item>
     
     <item>
       <title>Deploying HCX on-premises</title>
-      <link>/vmware-on-aws-/vmware-hcx/deploy-on-prem/</link>
+      <link>/vmware-on-aws-/vmware-hcx/04_deploy-on-prem/</link>
       <pubDate>Tue, 27 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>/vmware-on-aws-/vmware-hcx/deploy-on-prem/</guid>
+      <guid>/vmware-on-aws-/vmware-hcx/04_deploy-on-prem/</guid>
       <description>Create the Activation Key for HCX  Enter into VMC Console
  Open HCX Console.  Open HCX.  Enter the same credentials provided for vCenter.  Click on Activation Keys Tab  Click on Create Activation button.  Confirm the creation of the key.  Found the new activation key, this is the key you&amp;rsquo;ll use to activate your HCX on-prem.   Download the HCX appliance  Enter into VMC Console</description>
     </item>
     
     <item>
-      <title>Site pairing</title>
+      <title>Network Profile</title>
       <link>/vmware-on-aws-/vmware-hcx/network-profile/</link>
       <pubDate>Sat, 31 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>/vmware-on-aws-/vmware-hcx/network-profile/</guid>
       <description> Open the HCX Console on-premises
- Login into HCX Console.  Click on connect to remote site.  Check the status on site pairing.   </description>
+ Login into HCX Console.  Create network profile:
+ Set vCenter IP/Hostname; Select the network; Set IP Range (CIDR), gateway and DNS; Click on create.    </description>
     </item>
     
     <item>
       <title>Site pairing</title>
-      <link>/vmware-on-aws-/vmware-hcx/site-pairing/</link>
+      <link>/vmware-on-aws-/vmware-hcx/05_site-pairing/</link>
       <pubDate>Sat, 31 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>/vmware-on-aws-/vmware-hcx/site-pairing/</guid>
+      <guid>/vmware-on-aws-/vmware-hcx/05_site-pairing/</guid>
       <description> Open the HCX Console on-premises
  Login into HCX Console.  Click on connect to remote site.  Check the status on site pairing.   </description>
     </item>
     
     <item>
       <title>Extending Networking</title>
-      <link>/vmware-on-aws-/vmware-hcx/ext-net/</link>
+      <link>/vmware-on-aws-/vmware-hcx/06_ext-net/</link>
       <pubDate>Tue, 27 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>/vmware-on-aws-/vmware-hcx/ext-net/</guid>
+      <guid>/vmware-on-aws-/vmware-hcx/06_ext-net/</guid>
       <description> Open the HCX Console on-premises
  Login into HCX Console.  Click on Network Extension  Extending:
  Select the DSwitch vlan do you want extend Set the default gateway from this subnet Click into Extend button   Confirm the extend is correct.   </description>

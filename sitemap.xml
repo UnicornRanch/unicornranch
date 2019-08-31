@@ -43,12 +43,12 @@
   </url>
   
   <url>
-    <loc>/vmware-on-aws-/vmware-hcx/prereq/</loc>
+    <loc>/vmware-on-aws-/vmware-hcx/02_prereq/</loc>
     <lastmod>2019-08-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/vmware-on-aws-/vmware-hcx/deploy-on-vmc/</loc>
+    <loc>/vmware-on-aws-/vmware-hcx/03_deploy-on-vmc/</loc>
     <lastmod>2019-08-27T00:00:00+00:00</lastmod>
   </url>
   
@@ -58,7 +58,7 @@
   </url>
   
   <url>
-    <loc>/vmware-on-aws-/vmware-hcx/deploy-on-prem/</loc>
+    <loc>/vmware-on-aws-/vmware-hcx/04_deploy-on-prem/</loc>
     <lastmod>2019-08-27T00:00:00+00:00</lastmod>
   </url>
   
@@ -68,12 +68,12 @@
   </url>
   
   <url>
-    <loc>/vmware-on-aws-/vmware-hcx/site-pairing/</loc>
+    <loc>/vmware-on-aws-/vmware-hcx/05_site-pairing/</loc>
     <lastmod>2019-08-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/vmware-on-aws-/vmware-hcx/ext-net/</loc>
+    <loc>/vmware-on-aws-/vmware-hcx/06_ext-net/</loc>
     <lastmod>2019-08-27T00:00:00+00:00</lastmod>
   </url>
   
