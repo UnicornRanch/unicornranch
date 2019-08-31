@@ -73,7 +73,12 @@
   </url>
   
   <url>
-    <loc>/vmware-on-aws-/vmware-hcx/07_computer-profile/</loc>
+    <loc>/vmware-on-aws-/vmware-hcx/07_compute-profile/</loc>
+    <lastmod>2019-08-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/vmware-on-aws-/vmware-hcx/08_service-mesh/</loc>
     <lastmod>2019-08-31T00:00:00+00:00</lastmod>
   </url>
   
