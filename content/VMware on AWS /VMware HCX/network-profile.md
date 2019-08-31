@@ -1,5 +1,5 @@
 ---
-title: "Site pairing"
+title: "Network Profile"
 date: 2019-08-31
 weight: 5
 draft: false
@@ -10,10 +10,11 @@ draft: false
 - Login into HCX Console.
 ![](/images/vmc/hcx/ext-net/00.png)
 
-- Click on connect to remote site.
-![](/images/vmc/hcx/site-pairing/01.png)
-
-- Check the status on site pairing.
-![](/images/vmc/hcx/site-pairing/02.png)
+- Create network profile:
+    - Set vCenter IP/Hostname;
+    - Select the network;
+    - Set IP Range (CIDR), gateway and DNS;
+    - Click on create.
+![](/images/vmc/hcx/network-profile/01.png)
 
 
