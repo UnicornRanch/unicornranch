@@ -42,17 +42,6 @@
     </item>
     
     <item>
-      <title>Network Profile</title>
-      <link>/vmware-on-aws-/vmware-hcx/network-profile/</link>
-      <pubDate>Sat, 31 Aug 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/vmware-on-aws-/vmware-hcx/network-profile/</guid>
-      <description> Open the HCX Console on-premises
- Login into HCX Console.  Create network profile:
- Set vCenter IP/Hostname; Select the network; Set IP Range (CIDR), gateway and DNS; Click on create.    </description>
-    </item>
-    
-    <item>
       <title>Site pairing</title>
       <link>/vmware-on-aws-/vmware-hcx/05_site-pairing/</link>
       <pubDate>Sat, 31 Aug 2019 00:00:00 +0000</pubDate>
@@ -63,11 +52,32 @@
     </item>
     
     <item>
+      <title>Network Profile</title>
+      <link>/vmware-on-aws-/vmware-hcx/06_network-profile/</link>
+      <pubDate>Sat, 31 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/vmware-on-aws-/vmware-hcx/06_network-profile/</guid>
+      <description> Open the HCX Console on-premises
+ Login into HCX Console.  Create network profile:
+ Set vCenter IP/Hostname; Select the network; Set IP Range (CIDR), gateway and DNS; Click on create.    </description>
+    </item>
+    
+    <item>
+      <title>Computer Profile</title>
+      <link>/vmware-on-aws-/vmware-hcx/07_computer-profile/</link>
+      <pubDate>Sat, 31 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/vmware-on-aws-/vmware-hcx/07_computer-profile/</guid>
+      <description> Open the HCX Console on-premises
+ Login into HCX Console.  Set computer profile name.  Select services.  Select resources and datastore to be used by profile.  Select management network profile.  Select Uplink.  Select VMotion Network.  Select Replication Network.  Select Distributed Switch to be used by network extension.  Review.  Finish the creation of computer profile.   </description>
+    </item>
+    
+    <item>
       <title>Extending Networking</title>
-      <link>/vmware-on-aws-/vmware-hcx/06_ext-net/</link>
+      <link>/vmware-on-aws-/vmware-hcx/29_ext-net/</link>
       <pubDate>Tue, 27 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>/vmware-on-aws-/vmware-hcx/06_ext-net/</guid>
+      <guid>/vmware-on-aws-/vmware-hcx/29_ext-net/</guid>
       <description> Open the HCX Console on-premises
  Login into HCX Console.  Click on Network Extension  Extending:
  Select the DSwitch vlan do you want extend Set the default gateway from this subnet Click into Extend button   Confirm the extend is correct.   </description>
@@ -75,10 +85,10 @@
     
     <item>
       <title>Bulk Migration</title>
-      <link>/vmware-on-aws-/vmware-hcx/bulk-migration/</link>
+      <link>/vmware-on-aws-/vmware-hcx/30_bulk-migration/</link>
       <pubDate>Tue, 27 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>/vmware-on-aws-/vmware-hcx/bulk-migration/</guid>
+      <guid>/vmware-on-aws-/vmware-hcx/30_bulk-migration/</guid>
       <description> Open the HCX Console on-premises
  Login into HCX Console.  Click on Migration tab.  At the HXC: Migrate Virtual Machines:
  select the VM Name to migration select storage at VMC on AWS select the type of migration select the network at VMC on AWS click in Finish button   Check the status at migration console.   </description>

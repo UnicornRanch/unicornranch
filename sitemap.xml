@@ -63,22 +63,27 @@
   </url>
   
   <url>
-    <loc>/vmware-on-aws-/vmware-hcx/network-profile/</loc>
-    <lastmod>2019-08-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/vmware-on-aws-/vmware-hcx/05_site-pairing/</loc>
     <lastmod>2019-08-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/vmware-on-aws-/vmware-hcx/06_ext-net/</loc>
+    <loc>/vmware-on-aws-/vmware-hcx/06_network-profile/</loc>
+    <lastmod>2019-08-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/vmware-on-aws-/vmware-hcx/07_computer-profile/</loc>
+    <lastmod>2019-08-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/vmware-on-aws-/vmware-hcx/29_ext-net/</loc>
     <lastmod>2019-08-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/vmware-on-aws-/vmware-hcx/bulk-migration/</loc>
+    <loc>/vmware-on-aws-/vmware-hcx/30_bulk-migration/</loc>
     <lastmod>2019-08-27T00:00:00+00:00</lastmod>
   </url>
   
