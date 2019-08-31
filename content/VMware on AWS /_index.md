@@ -7,5 +7,4 @@ weight: 1
 
 <div style="text-align: center"><h2>VMware Cloud on AWS</h2></div>
 
-This is a simple guide to explain and deploy VMware on AWS.
-
+- This site is a repository of tutorials to use VMWare products over AWS.

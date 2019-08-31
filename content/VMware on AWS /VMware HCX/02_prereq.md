@@ -8,9 +8,9 @@ draft: false
 ### On premises environment
 
 - Hardware
-    - at least one server with 8 Cores and 64 GB RAM
+    - at least one servers with 8 Cores and 64 GB RAM
 - Software    
-    - VMware VCenter 6.7 + ESXi + VMware HCX ( NSX is not required for this lab ) 
+    - VMware VCenter 6.5 + ESXi + VMware HCX ( NSX is not required for this lab ) 
 
 
 ### On VMware Cloud on AWS

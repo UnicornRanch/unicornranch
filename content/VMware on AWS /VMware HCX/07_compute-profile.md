@@ -1,5 +1,5 @@
 ---
-title: "Computer Profile"
+title: "Compute Profile"
 date: 2019-08-31
 weight: 7
 draft: false
