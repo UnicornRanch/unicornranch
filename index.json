@@ -70,13 +70,6 @@
 	"content": " Deploying HCX on VMC at AWS  Enter into VMC Console\n Found the tools tab.  Click in to deploy HCX.  After some minutes, your HCX is ready.  Open HCX.  Enter the same credentials provided for vCenter.   "
 },
 {
-	"uri": "/produtos/ec2/",
-	"title": "EC2",
-	"tags": [],
-	"description": "",
-	"content": " Teste  Demostração  "
-},
-{
 	"uri": "/projetos/",
 	"title": "Projetos",
 	"tags": [],
