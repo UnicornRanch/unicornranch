@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/vmware-on-aws/vmware-hcx/</loc>
+    <loc>/vmware-on-aws/vmware-sddc/</loc>
     <lastmod>2019-08-27T00:00:00+00:00</lastmod>
   </url>
   
@@ -43,12 +43,27 @@
   </url>
   
   <url>
-    <loc>/vmware-on-aws-/vmware-hcx/02_prereq/</loc>
+    <loc>/vmware-on-aws-/vmware-hcx/02-prereq/</loc>
     <lastmod>2019-08-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/vmware-on-aws-/vmware-hcx/03_deploy-on-vmc/</loc>
+    <loc>/vmware-on-aws-/vmware-sddc/02-prereq/</loc>
+    <lastmod>2019-08-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/vmware-on-aws/vmware-hcx/</loc>
+    <lastmod>2019-08-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/vmware-on-aws-/vmware-sddc/03-creating-sddc/</loc>
+    <lastmod>2019-08-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/vmware-on-aws-/vmware-hcx/03-deploy-on-vmc/</loc>
     <lastmod>2019-08-27T00:00:00+00:00</lastmod>
   </url>
   
@@ -58,37 +73,37 @@
   </url>
   
   <url>
-    <loc>/vmware-on-aws-/vmware-hcx/04_deploy-on-prem/</loc>
+    <loc>/vmware-on-aws-/vmware-hcx/04-deploy-on-prem/</loc>
     <lastmod>2019-08-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/vmware-on-aws-/vmware-hcx/05_site-pairing/</loc>
+    <loc>/vmware-on-aws-/vmware-hcx/05-site-pairing/</loc>
     <lastmod>2019-08-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/vmware-on-aws-/vmware-hcx/06_network-profile/</loc>
+    <loc>/vmware-on-aws-/vmware-hcx/06-network-profile/</loc>
     <lastmod>2019-08-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/vmware-on-aws-/vmware-hcx/07_compute-profile/</loc>
+    <loc>/vmware-on-aws-/vmware-hcx/07-compute-profile/</loc>
     <lastmod>2019-08-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/vmware-on-aws-/vmware-hcx/08_service-mesh/</loc>
+    <loc>/vmware-on-aws-/vmware-hcx/08-service-mesh/</loc>
     <lastmod>2019-08-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/vmware-on-aws-/vmware-hcx/29_ext-net/</loc>
+    <loc>/vmware-on-aws-/vmware-hcx/29-ext-net/</loc>
     <lastmod>2019-08-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/vmware-on-aws-/vmware-hcx/30_bulk-migration/</loc>
+    <loc>/vmware-on-aws-/vmware-hcx/30-bulk-migration/</loc>
     <lastmod>2019-08-27T00:00:00+00:00</lastmod>
   </url>
   
