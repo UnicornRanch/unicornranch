@@ -10,10 +10,13 @@ draft: false
 - Login into HCX Console.
 ![](/images/vmc/hcx/ext-net/00.png)
 
-- Click on connect to remote site.
+- Click on Connect to Remote Site.
 ![](/images/vmc/hcx/site-pairing/01.png)
 
-- Check the status on site pairing.
+- Add HCX endpoint, user and password and click on Connect.
 ![](/images/vmc/hcx/site-pairing/02.png)
+
+- Check the status on site pairing.
+![](/images/vmc/hcx/site-pairing/03.png)
 
 

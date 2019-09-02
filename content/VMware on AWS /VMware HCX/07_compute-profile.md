@@ -10,6 +10,9 @@ draft: false
 - Login into HCX Console.
 ![](/images/vmc/hcx/ext-net/00.png)
 
+- Click on CREATE COMPUTE PROFILE.
+![](/images/vmc/hcx/computer-profile/00.png)
+
 - Set computer profile name.
 ![](/images/vmc/hcx/computer-profile/01.png)
 
@@ -37,5 +40,8 @@ draft: false
 - Review.
 ![](/images/vmc/hcx/computer-profile/09.png)
 
-- Finish the creation of computer profile.
+- Finish the creation of compute profile.
 ![](/images/vmc/hcx/computer-profile/10.png)
+
+- Check the status of compute profile.
+![](/images/vmc/hcx/computer-profile/11.png)

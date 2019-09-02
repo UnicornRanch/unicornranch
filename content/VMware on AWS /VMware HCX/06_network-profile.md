@@ -10,6 +10,9 @@ draft: false
 - Login into HCX Console.
 ![](/images/vmc/hcx/ext-net/00.png)
 
+- Click on CREATE NETWORK PROFILE.
+![](/images/vmc/hcx/network-profile/00.png)
+
 - Create network profile:
     - Set vCenter IP/Hostname;
     - Select the network;

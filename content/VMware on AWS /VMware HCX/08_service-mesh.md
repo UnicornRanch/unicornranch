@@ -1,7 +1,7 @@
 ---
 title: "Service Mesh"
 date: 2019-08-31
-weight: 7
+weight: 8
 draft: false
 ---
 
@@ -9,6 +9,9 @@ draft: false
 
 - Login into HCX Console.
 ![](/images/vmc/hcx/ext-net/00.png)
+
+- Click on CREATE SERVICE MESH.
+![](/images/vmc/hcx/service-mesh/00.png)
 
 - Select sites.
 ![](/images/vmc/hcx/service-mesh/01.png)
@@ -34,5 +37,9 @@ draft: false
 - Select name for service mesh.
 ![](/images/vmc/hcx/service-mesh/08.png)
 
-- Check the service mesh status at console.
+- Check the deploy of service mesh at console.
 ![](/images/vmc/hcx/service-mesh/09.png)
+
+- Check the service mesh status at console.
+![](/images/vmc/hcx/service-mesh/10.png)
+
