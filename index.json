@@ -7,11 +7,11 @@
 	"content": "VMware SDDC Workshop  This is a tutorial to how deploy and configure VMWare HCX on-premises and how pairing with VMC on AWS to extend networking, migrate VMs in bulk or VMotion mode.  "
 },
 {
-	"uri": "/vmware-on-aws/",
-	"title": "VMware on AWS",
+	"uri": "/aws-ecs/pre_req/",
+	"title": "Pré-requisitos",
 	"tags": [],
 	"description": "",
-	"content": "VMware Cloud on AWS  This site is a repository of tutorials to use VMWare products over AWS.  "
+	"content": " updated: 2019-05-12\nPara MACOS Instale KUBECTL brew install kubectl  Instale e configure o AWSCLI Baixe o bundle do AWSCLI do repositório oficial\ncurl \u0026quot;https://s3.amazonaws.com/aws-cli/awscli-bundle.zip\u0026quot; -o \u0026quot;awscli-bundle.zip\u0026quot;  Descompacte o pacote\nunzip awscli-bundle.zip  Instale utilizando o commando abaixo\nsudo ./awscli-bundle/install -i /usr/local/aws -b /usr/local/bin/aws  Mais informação no link\nInstalação EKSCTL Utilizando brew, instale o repositorio e depois instale o eksctl\nbrew tap weaveworks/tap brew install weaveworks/tap/eksctl  Verifique a instalação:\neksctl version  "
 },
 {
 	"uri": "/aws-eks/pre_req/",
@@ -42,11 +42,11 @@
 	"content": " Sobre  Compatível com todos os serviços AWS que acessam a internet. Reduz custos de transferência out-bound com o ambiente de cloud, custos de in-bound se mantém gratuitos. Página principal do produto: https://aws.amazon.com/directconnect/  Casos de uso  Quantidades massivas de dados, quando é necessário mover grandes quantidades de dados sistematicamente. Workloads de vídeo, voz streamming, entre outros. Ambientes híbridos, quando é necessário interligar ambientes off-prem com a cloud.  Preço  Preço é composto por 2 componentes:  porta de acesso (1G ou 10G ) custo do tráfego out-bound   Vídeos  (NET301) Extending Data Centers to the Cloud: Connectivity Options and Co  Documentos  (NET201) VPC Fundamentals and Connectivity Options (NET406) Deep Dive: AWS Direct Connect and VPNs  "
 },
 {
-	"uri": "/aws-eks/",
-	"title": "EKS",
+	"uri": "/aws-ecs/",
+	"title": "AWS ECS",
 	"tags": [],
 	"description": "",
-	"content": " EKS Workshop sobre EKS\n"
+	"content": " ECS Workshop sobre ECS\n"
 },
 {
 	"uri": "/",
@@ -77,6 +77,20 @@
 	"content": "VMware SDDC Workshop  This is a tutorial to how deploy and configure VMWare SDDC on AWS  "
 },
 {
+	"uri": "/aws-ecs/ecs_linux_ec2/",
+	"title": "Cluster ECS + Linux EC2",
+	"tags": [],
+	"description": "",
+	"content": " updated: 2019-05-12\nCriação do ASG Launch Configuration  Procure por uma imagem chamada ECS-Optmized e selecione essa imagem:  Selecione o tipo de instância:  Click em \u0026ldquo;Advance Details\u0026rdquo; e declare o nome do cluster em User Data:   #!/bin/bash echo ECS_CLUSTER=NOME_DO_CLUSTER \u0026gt;\u0026gt; /etc/ecs/ecs.config   Selecione o Storage:  Selecione o Security Group:  Click em launch configuration:  Selecione a public key:   Criação do ASG Launch Configuration "
+},
+{
+	"uri": "/aws-eks/",
+	"title": "AWS EKS",
+	"tags": [],
+	"description": "",
+	"content": " EKS Workshop sobre EKS\n"
+},
+{
 	"uri": "/vmware-on-aws-/vmware-sddc/03-creating-sddc/",
 	"title": "Creating a SDDC",
 	"tags": [],
@@ -89,6 +103,13 @@
 	"tags": [],
 	"description": "",
 	"content": " Deploying HCX on VMC at AWS  Enter into VMC Console\n Found the tools tab.  Click in to deploy HCX.  After some minutes, your HCX is ready.  Open HCX.  Enter the same credentials provided for vCenter.   "
+},
+{
+	"uri": "/vmware-on-aws/",
+	"title": "VMware on AWS",
+	"tags": [],
+	"description": "",
+	"content": "VMware Cloud on AWS  This site is a repository of tutorials to use VMWare products over AWS.  "
 },
 {
 	"uri": "/projetos/",
