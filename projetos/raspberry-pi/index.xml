@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Raspberry Pi Box Tools  on Unicorn Ranch</title>
+    <link>/projetos/raspberry-pi/</link>
+    <description>Recent content in Raspberry Pi Box Tools  on Unicorn Ranch</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 11 Nov 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/projetos/raspberry-pi/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>SSH over USB</title>
+      <link>/projetos/raspberry-pi/ssh-over-usb/</link>
+      <pubDate>Mon, 11 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/projetos/raspberry-pi/ssh-over-usb/</guid>
+      <description>Esse procedimento só funciona com as seguintes raspberrypi disponíveis:  Raspberry Pi Zero Raspberry Pi Zero W  Monte o SD no seu computador e acesse a raiz.  procure pelo /boot  Habilite o SSH  para isso somente crie um arquivo em branco na raiz, como no exemplo abaixo:  touch /boot/ssh  Adicione o driver a configuração do device tree  edite o arquivo config.txt:  vi /boot/config.</description>
+    </item>
+    
+  </channel>
+</rss>
