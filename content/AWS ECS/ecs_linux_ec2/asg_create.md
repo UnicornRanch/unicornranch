@@ -1,10 +1,10 @@
 ---
 title: "Criando AutoScaling Group"
-date: 2019-05-12
+date: 2019-11-12
 weight: 3
 draft: false
 ---
-updated: 2019-05-12
+updated: 2019-11-12
 
 #### Criando o Auto Scaling Group
 - Acesse o console em Auto Scaling Group.

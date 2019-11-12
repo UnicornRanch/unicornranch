@@ -1,10 +1,10 @@
 ---
 title: "Configurando Launch Group"
-date: 2019-05-12
+date: 2019-11-12
 weight: 2
 draft: false
 ---
-updated: 2019-05-12
+updated: 2019-11-12
 
 #### Criação do ASG Launch Configuration
 
