@@ -43,6 +43,11 @@
   </url>
   
   <url>
+    <loc>/aws-ecs/ecs_linux_ec2/config-asg/</loc>
+    <lastmod>2019-11-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/vmware-on-aws-/vmware-hcx/02-prereq/</loc>
     <lastmod>2019-08-27T00:00:00+00:00</lastmod>
   </url>
@@ -58,18 +63,18 @@
   </url>
   
   <url>
-    <loc>/aws-ecs/ecs_linux_ec2/config-asg/</loc>
-    <lastmod>2019-05-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/aws-eks/</loc>
     <lastmod>2019-05-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/aws-ecs/ecs_linux_ec2/</loc>
-    <lastmod>2019-05-12T00:00:00+00:00</lastmod>
+    <lastmod>2019-11-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/aws-ecs/ecs_linux_ec2/asg_create/</loc>
+    <lastmod>2019-11-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -85,11 +90,6 @@
   <url>
     <loc>/vmware-on-aws/</loc>
     <lastmod>2019-08-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/aws-ecs/ecs_linux_ec2/asg_create/</loc>
-    <lastmod>2019-05-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>

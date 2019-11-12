@@ -56,6 +56,13 @@
 	"content": "Unicorn Ranch Project Essa página é uma inicativa de auxiliar parceiros e clientes na utilização das soluções AWS.\n"
 },
 {
+	"uri": "/aws-ecs/ecs_linux_ec2/config-asg/",
+	"title": "Configurando Launch Group",
+	"tags": [],
+	"description": "",
+	"content": " updated: 2019-11-12\nCriação do ASG Launch Configuration  Procure por uma imagem chamada ECS-Optmized e selecione essa imagem:  Selecione o tipo de instância:  Click em \u0026ldquo;Advance Details\u0026rdquo; e declare o nome do cluster em User Data:   #!/bin/bash echo ECS_CLUSTER=NOME_DO_CLUSTER \u0026gt;\u0026gt; /etc/ecs/ecs.config   Selecione o Storage:  Selecione o Security Group:  Click em launch configuration:  Selecione a public key:   Criação do ASG Launch Configuration "
+},
+{
 	"uri": "/vmware-on-aws-/vmware-hcx/02-prereq/",
 	"title": "Requirements",
 	"tags": [],
@@ -77,13 +84,6 @@
 	"content": "VMware SDDC Workshop  This is a tutorial to how deploy and configure VMWare SDDC on AWS  "
 },
 {
-	"uri": "/aws-ecs/ecs_linux_ec2/config-asg/",
-	"title": "Configurando Launch Group",
-	"tags": [],
-	"description": "",
-	"content": " updated: 2019-05-12\nCriação do ASG Launch Configuration  Procure por uma imagem chamada ECS-Optmized e selecione essa imagem:  Selecione o tipo de instância:  Click em \u0026ldquo;Advance Details\u0026rdquo; e declare o nome do cluster em User Data:   #!/bin/bash echo ECS_CLUSTER=NOME_DO_CLUSTER \u0026gt;\u0026gt; /etc/ecs/ecs.config   Selecione o Storage:  Selecione o Security Group:  Click em launch configuration:  Selecione a public key:   Criação do ASG Launch Configuration "
-},
-{
 	"uri": "/aws-eks/",
 	"title": "AWS EKS",
 	"tags": [],
@@ -95,7 +95,14 @@
 	"title": "EC2 Linux + Networking",
 	"tags": [],
 	"description": "",
-	"content": " ECS \u0026hellip; em breve\n"
+	"content": " ECS \u0026hellip; em breve.\n"
+},
+{
+	"uri": "/aws-ecs/ecs_linux_ec2/asg_create/",
+	"title": "Criando AutoScaling Group",
+	"tags": [],
+	"description": "",
+	"content": " updated: 2019-11-12\nCriando o Auto Scaling Group  Acesse o console em Auto Scaling Group.\n Procure pela Configuração do Auto Scaling:  Dê um nome ao ASG:  Click em Configure Notifications:  Click em Configure TAGs:  Click Review:  Click Auto Scaling Group:  Click Close:   Verifique se as instâncias estão disponíveis no cluster de ECS  Acesse o console do ECS:  Selecione o cluster e verifique se há instâncias na aba ECS:   "
 },
 {
 	"uri": "/vmware-on-aws-/vmware-sddc/03-creating-sddc/",
@@ -117,13 +124,6 @@
 	"tags": [],
 	"description": "",
 	"content": "VMware Cloud on AWS  This site is a repository of tutorials to use VMWare products over AWS.  "
-},
-{
-	"uri": "/aws-ecs/ecs_linux_ec2/asg_create/",
-	"title": "Criando AutoScaling Group",
-	"tags": [],
-	"description": "",
-	"content": " updated: 2019-05-12\nCriando o Auto Scaling Group  Acesse o console em Auto Scaling Group.\n Procure pela Configuração do Auto Scaling:  Dê um nome ao ASG:  Click em Configure Notifications:  Click em Configure TAGs:  Click Review:  Click Auto Scaling Group:  Click Close:   Verifique se as instâncias estão disponíveis no cluster de ECS  Acesse o console do ECS:  Selecione o cluster e verifique se há instâncias na aba ECS:   "
 },
 {
 	"uri": "/projetos/",

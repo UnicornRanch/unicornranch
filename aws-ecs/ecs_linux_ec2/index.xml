@@ -6,7 +6,7 @@
     <description>Recent content in EC2 Linux &#43; Networking on Unicorn Ranch</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 12 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 12 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/aws-ecs/ecs_linux_ec2/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,20 +14,20 @@
     <item>
       <title>Configurando Launch Group</title>
       <link>/aws-ecs/ecs_linux_ec2/config-asg/</link>
-      <pubDate>Sun, 12 May 2019 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 12 Nov 2019 00:00:00 +0000</pubDate>
       
       <guid>/aws-ecs/ecs_linux_ec2/config-asg/</guid>
-      <description> updated: 2019-05-12
+      <description> updated: 2019-11-12
 Criação do ASG Launch Configuration  Procure por uma imagem chamada ECS-Optmized e selecione essa imagem:  Selecione o tipo de instância:  Click em &amp;ldquo;Advance Details&amp;rdquo; e declare o nome do cluster em User Data:   #!/bin/bash echo ECS_CLUSTER=NOME_DO_CLUSTER &amp;gt;&amp;gt; /etc/ecs/ecs.config   Selecione o Storage:  Selecione o Security Group:  Click em launch configuration:  Selecione a public key:   Criação do ASG Launch Configuration </description>
     </item>
     
     <item>
       <title>Criando AutoScaling Group</title>
       <link>/aws-ecs/ecs_linux_ec2/asg_create/</link>
-      <pubDate>Sun, 12 May 2019 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 12 Nov 2019 00:00:00 +0000</pubDate>
       
       <guid>/aws-ecs/ecs_linux_ec2/asg_create/</guid>
-      <description> updated: 2019-05-12
+      <description> updated: 2019-11-12
 Criando o Auto Scaling Group  Acesse o console em Auto Scaling Group.
  Procure pela Configuração do Auto Scaling:  Dê um nome ao ASG:  Click em Configure Notifications:  Click em Configure TAGs:  Click Review:  Click Auto Scaling Group:  Click Close:   Verifique se as instâncias estão disponíveis no cluster de ECS  Acesse o console do ECS:  Selecione o cluster e verifique se há instâncias na aba ECS:   </description>
     </item>
