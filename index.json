@@ -11,7 +11,7 @@
 	"title": "Pré-requisitos",
 	"tags": [],
 	"description": "",
-	"content": "updated: 2019-05-12\n"
+	"content": "\u0026hellip; em breve\n"
 },
 {
 	"uri": "/aws-eks/pre_req/",
@@ -46,7 +46,7 @@
 	"title": "AWS ECS",
 	"tags": [],
 	"description": "",
-	"content": " ECS Workshop sobre ECS\n"
+	"content": " ECS o ECS permite fazer o deploy de 3 formas distintas hoje, são elas:\n Fargate Linux EC2 Windows EC2  "
 },
 {
 	"uri": "/",
@@ -95,7 +95,7 @@
 	"title": "EC2 Linux + Networking",
 	"tags": [],
 	"description": "",
-	"content": " ECS Workshop sobre ECS\n"
+	"content": " ECS \u0026hellip; em breve\n"
 },
 {
 	"uri": "/vmware-on-aws-/vmware-sddc/03-creating-sddc/",
