@@ -17,23 +17,7 @@
       <pubDate>Thu, 09 May 2019 00:00:00 +0000</pubDate>
       
       <guid>/aws-ecs/pre_req/</guid>
-      <description>updated: 2019-05-12
-Para MACOS Instale KUBECTL brew install kubectl  Instale e configure o AWSCLI Baixe o bundle do AWSCLI do repositório oficial
-curl &amp;quot;https://s3.amazonaws.com/aws-cli/awscli-bundle.zip&amp;quot; -o &amp;quot;awscli-bundle.zip&amp;quot;  Descompacte o pacote
-unzip awscli-bundle.zip  Instale utilizando o commando abaixo
-sudo ./awscli-bundle/install -i /usr/local/aws -b /usr/local/bin/aws  Mais informação no link
-Instalação EKSCTL Utilizando brew, instale o repositorio e depois instale o eksctl
-brew tap weaveworks/tap brew install weaveworks/tap/eksctl  Verifique a instalação:</description>
-    </item>
-    
-    <item>
-      <title>Cluster ECS &#43; Linux EC2</title>
-      <link>/aws-ecs/ecs_linux_ec2/</link>
-      <pubDate>Sun, 12 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/aws-ecs/ecs_linux_ec2/</guid>
-      <description> updated: 2019-05-12
-Criação do ASG Launch Configuration  Procure por uma imagem chamada ECS-Optmized e selecione essa imagem:  Selecione o tipo de instância:  Click em &amp;ldquo;Advance Details&amp;rdquo; e declare o nome do cluster em User Data:   #!/bin/bash echo ECS_CLUSTER=NOME_DO_CLUSTER &amp;gt;&amp;gt; /etc/ecs/ecs.config   Selecione o Storage:  Selecione o Security Group:  Click em launch configuration:  Selecione a public key:   Criação do ASG Launch Configuration </description>
+      <description>updated: 2019-05-12</description>
     </item>
     
   </channel>

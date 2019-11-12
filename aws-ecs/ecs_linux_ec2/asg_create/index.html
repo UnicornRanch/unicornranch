@@ -15,7 +15,7 @@
     <link rel="shortcut icon" href="../../../images/favicon.ico" type="image/x-icon" />
 <link rel="icon" href="../../../images/favicon.ico" type="image/x-icon" />
 
-    <title>Service Mesh :: Unicorn Ranch</title>
+    <title>Criando AutoScaling Group :: Unicorn Ranch</title>
 
     
     <link href="../../../css/nucleus.css?1573567201" rel="stylesheet">
@@ -47,7 +47,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/vmware-on-aws-/vmware-hcx/08-service-mesh/">
+  <body class="" data-url="/aws-ecs/ecs_linux_ec2/asg_create/">
     <nav id="sidebar" class="">
 
 
@@ -88,7 +88,7 @@
   
     
     <li data-nav-id="/aws-ecs/" title="AWS ECS" class="dd-item 
-        
+        parent
         
         
         ">
@@ -134,7 +134,7 @@
   
     
     <li data-nav-id="/aws-ecs/ecs_linux_ec2/" title="EC2 Linux &#43; Networking" class="dd-item 
-        
+        parent
         
         
         ">
@@ -177,7 +177,7 @@
  
   
     
-      <li data-nav-id="/aws-ecs/ecs_linux_ec2/asg_create/" title="Criando AutoScaling Group" class="dd-item ">
+      <li data-nav-id="/aws-ecs/ecs_linux_ec2/asg_create/" title="Criando AutoScaling Group" class="dd-item active">
         <a href="../../../aws-ecs/ecs_linux_ec2/asg_create/">
         Criando AutoScaling Group
         
@@ -283,7 +283,7 @@
   
     
     <li data-nav-id="/vmware-on-aws/" title="VMware on AWS" class="dd-item 
-        parent
+        
         
         
         ">
@@ -382,7 +382,7 @@
   
     
     <li data-nav-id="/vmware-on-aws/vmware-hcx/" title="VMware HCX" class="dd-item 
-        parent
+        
         
         
         ">
@@ -520,7 +520,7 @@
  
   
     
-      <li data-nav-id="/vmware-on-aws-/vmware-hcx/08-service-mesh/" title="Service Mesh" class="dd-item active">
+      <li data-nav-id="/vmware-on-aws-/vmware-hcx/08-service-mesh/" title="Service Mesh" class="dd-item ">
         <a href="../../../vmware-on-aws-/vmware-hcx/08-service-mesh/">
         Service Mesh
         
@@ -748,7 +748,7 @@
                   
                   
                   <div id="top-github-link">
-                    <a class="github-link" title='Edit this page' href="https://github.com/UnicornRanch/unicornranch/blob/master/content/VMware%20on%20AWS%20/VMware%20HCX/08-service-mesh.md" target="blank">
+                    <a class="github-link" title='Edit this page' href="https://github.com/UnicornRanch/unicornranch/blob/master/content/AWS%20ECS/ecs_linux_ec2/asg_create.md" target="blank">
                       <i class="fas fa-code-branch"></i>
                       <span id="top-github-link-text">Edit this page</span>
                     </a>
@@ -781,7 +781,7 @@
             
           
           
-            <a href='../../../'>Unicorn Ranch</a> > <a href='../../../vmware-on-aws/'>VMware on AWS</a> > <a href='../../../vmware-on-aws/vmware-hcx/'>VMware HCX</a> > Service Mesh
+            <a href='../../../'>Unicorn Ranch</a> > <a href='../../../aws-ecs/'>AWS ECS</a> > <a href='../../../aws-ecs/ecs_linux_ec2/'>EC2 Linux + Networking</a> > Criando AutoScaling Group
           
          
           
@@ -795,7 +795,21 @@
                 
                     <div class="progress">
     <div class="wrapper">
-
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#criando-o-auto-scaling-group">Criando o Auto Scaling Group</a></li>
+<li><a href="#verifique-se-as-instâncias-estão-disponíveis-no-cluster-de-ecs">Verifique se as instâncias estão disponíveis no cluster de ECS</a></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
     </div>
 </div>
 
@@ -807,50 +821,51 @@
         
         <div id="body-inner">
           
-            <h1>Service Mesh</h1>
+            <h1>Criando AutoScaling Group</h1>
           
 
         
 
 
+
+
+<p>updated: 2019-05-12</p>
+
+<h4 id="criando-o-auto-scaling-group">Criando o Auto Scaling Group</h4>
+
 <ul>
-<li><p>Open the HCX Console on-premises</p></li>
+<li><p>Acesse o console em Auto Scaling Group.</p></li>
 
-<li><p>Login into HCX Console.
-<img src="../../../images/vmc/hcx/ext-net/00.png" alt="" /></p></li>
+<li><p>Procure pela Configuração do Auto Scaling:
+<img src="../../../images/ecs/linux-ec2/create_asg01.png" alt="Connecting" /></p></li>
 
-<li><p>Click on CREATE SERVICE MESH.
-<img src="../../../images/vmc/hcx/service-mesh/00.png" alt="" /></p></li>
+<li><p>Dê um nome ao ASG:
+<img src="../../../images/ecs/linux-ec2/create_asg02.png" alt="Connecting" /></p></li>
 
-<li><p>Select sites.
-<img src="../../../images/vmc/hcx/service-mesh/01.png" alt="" /></p></li>
+<li><p>Click em Configure Notifications:
+<img src="../../../images/ecs/linux-ec2/create_asg03.png" alt="Connecting" /></p></li>
 
-<li><p>Select compute profile.
-<img src="../../../images/vmc/hcx/service-mesh/02.png" alt="" /></p></li>
+<li><p>Click em Configure TAGs:
+<img src="../../../images/ecs/linux-ec2/create_asg04.png" alt="Connecting" /></p></li>
 
-<li><p>Select services to be enabled.
-<img src="../../../images/vmc/hcx/service-mesh/03.png" alt="" /></p></li>
+<li><p>Click Review:
+<img src="../../../images/ecs/linux-ec2/create_asg05.png" alt="Connecting" /></p></li>
 
-<li><p>Click on continue.
-<img src="../../../images/vmc/hcx/service-mesh/04.png" alt="" /></p></li>
+<li><p>Click Auto Scaling Group:
+<img src="../../../images/ecs/linux-ec2/create_asg06.png" alt="Connecting" /></p></li>
 
-<li><p>Click on continue.
-<img src="../../../images/vmc/hcx/service-mesh/05.png" alt="" /></p></li>
+<li><p>Click Close:
+<img src="../../../images/ecs/linux-ec2/create_asg07.png" alt="Connecting" /></p></li>
+</ul>
 
-<li><p>Select bandwidth limit.
-<img src="../../../images/vmc/hcx/service-mesh/06.png" alt="" /></p></li>
+<h4 id="verifique-se-as-instâncias-estão-disponíveis-no-cluster-de-ecs">Verifique se as instâncias estão disponíveis no cluster de ECS</h4>
 
-<li><p>Review the service mesh configuration.
-<img src="../../../images/vmc/hcx/service-mesh/07.png" alt="" /></p></li>
+<ul>
+<li><p>Acesse o console do ECS:
+<img src="../../../images/ecs/linux-ec2/create_asg08.png" alt="Connecting" /></p></li>
 
-<li><p>Select name for service mesh.
-<img src="../../../images/vmc/hcx/service-mesh/08.png" alt="" /></p></li>
-
-<li><p>Check the deploy of service mesh at console.
-<img src="../../../images/vmc/hcx/service-mesh/09.png" alt="" /></p></li>
-
-<li><p>Check the service mesh status at console.
-<img src="../../../images/vmc/hcx/service-mesh/10.png" alt="" /></p></li>
+<li><p>Selecione o cluster e verifique se há instâncias na aba ECS:
+<img src="../../../images/ecs/linux-ec2/create_asg09.png" alt="Connecting" /></p></li>
 </ul>
 
 
@@ -890,8 +905,6 @@
             
                 
                     
-                        
-                        
                     
                 
                 
@@ -907,6 +920,9 @@
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -924,6 +940,7 @@
             
                 
                     
+                    
                 
                 
 
@@ -936,6 +953,9 @@
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -953,56 +973,6 @@
             
                 
                     
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
                     
                 
                 
@@ -1018,25 +988,16 @@
             
         
                     
+            
+        
+                    
                         
             
             
                 
                     
-                
-                
-
-                    
-                    
                         
-                    
-                    
-
-                    
                         
-            
-            
-                
                     
                 
                 
@@ -1091,6 +1052,21 @@
 
                     
                     
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
                     
 
                     
@@ -1109,6 +1085,38 @@
                     
             
         
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
                     
                         
             
@@ -1195,26 +1203,6 @@
             
                 
                     
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                        
-                        
-                    
                 
                 
 
@@ -1242,8 +1230,18 @@
             
         
                     
+                        
             
-        
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
                     
             
         
@@ -1261,18 +1259,8 @@
                     
 
                     
-                        
             
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
+        
                     
             
         
@@ -1312,6 +1300,38 @@
             
         
                     
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
             
         
 
@@ -1319,10 +1339,10 @@
 
 
         
-            <a class="nav nav-prev" href="../../../vmware-on-aws-/vmware-hcx/07-compute-profile/" title="Compute Profile"> <i class="fas fa-chevron-left"></i></a>
+            <a class="nav nav-prev" href="../../../aws-ecs/ecs_linux_ec2/config-asg/" title="Configurando Launch Group"> <i class="fas fa-chevron-left"></i></a>
         
         
-            <a class="nav nav-next" href="../../../vmware-on-aws-/vmware-hcx/29-ext-net/" title="Extending Networking" style="margin-right: 0px;"><i class="fas fa-chevron-right"></i></a>
+            <a class="nav nav-next" href="../../../aws-eks/" title="AWS EKS" style="margin-right: 0px;"><i class="fas fa-chevron-right"></i></a>
         
     </div>
 

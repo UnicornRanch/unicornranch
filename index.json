@@ -11,7 +11,7 @@
 	"title": "Pré-requisitos",
 	"tags": [],
 	"description": "",
-	"content": " updated: 2019-05-12\nPara MACOS Instale KUBECTL brew install kubectl  Instale e configure o AWSCLI Baixe o bundle do AWSCLI do repositório oficial\ncurl \u0026quot;https://s3.amazonaws.com/aws-cli/awscli-bundle.zip\u0026quot; -o \u0026quot;awscli-bundle.zip\u0026quot;  Descompacte o pacote\nunzip awscli-bundle.zip  Instale utilizando o commando abaixo\nsudo ./awscli-bundle/install -i /usr/local/aws -b /usr/local/bin/aws  Mais informação no link\nInstalação EKSCTL Utilizando brew, instale o repositorio e depois instale o eksctl\nbrew tap weaveworks/tap brew install weaveworks/tap/eksctl  Verifique a instalação:\neksctl version  "
+	"content": "updated: 2019-05-12\n"
 },
 {
 	"uri": "/aws-eks/pre_req/",
@@ -77,8 +77,8 @@
 	"content": "VMware SDDC Workshop  This is a tutorial to how deploy and configure VMWare SDDC on AWS  "
 },
 {
-	"uri": "/aws-ecs/ecs_linux_ec2/",
-	"title": "Cluster ECS + Linux EC2",
+	"uri": "/aws-ecs/ecs_linux_ec2/config-asg/",
+	"title": "Configurando Launch Group",
 	"tags": [],
 	"description": "",
 	"content": " updated: 2019-05-12\nCriação do ASG Launch Configuration  Procure por uma imagem chamada ECS-Optmized e selecione essa imagem:  Selecione o tipo de instância:  Click em \u0026ldquo;Advance Details\u0026rdquo; e declare o nome do cluster em User Data:   #!/bin/bash echo ECS_CLUSTER=NOME_DO_CLUSTER \u0026gt;\u0026gt; /etc/ecs/ecs.config   Selecione o Storage:  Selecione o Security Group:  Click em launch configuration:  Selecione a public key:   Criação do ASG Launch Configuration "
@@ -89,6 +89,13 @@
 	"tags": [],
 	"description": "",
 	"content": " EKS Workshop sobre EKS\n"
+},
+{
+	"uri": "/aws-ecs/ecs_linux_ec2/",
+	"title": "EC2 Linux + Networking",
+	"tags": [],
+	"description": "",
+	"content": " ECS Workshop sobre ECS\n"
 },
 {
 	"uri": "/vmware-on-aws-/vmware-sddc/03-creating-sddc/",
@@ -110,6 +117,13 @@
 	"tags": [],
 	"description": "",
 	"content": "VMware Cloud on AWS  This site is a repository of tutorials to use VMWare products over AWS.  "
+},
+{
+	"uri": "/aws-ecs/ecs_linux_ec2/asg_create/",
+	"title": "Criando AutoScaling Group",
+	"tags": [],
+	"description": "",
+	"content": " updated: 2019-05-12\nCriando o Auto Scaling Group  Acesse o console em Auto Scaling Group.\n Procure pela Configuração do Auto Scaling:  Dê um nome ao ASG:  Click em Configure Notifications:  Click em Configure TAGs:  Click Review:  Click Auto Scaling Group:  Click Close:   Verifique se as instâncias estão disponíveis no cluster de ECS  Acesse o console do ECS:  Selecione o cluster e verifique se há instâncias na aba ECS:   "
 },
 {
 	"uri": "/projetos/",
