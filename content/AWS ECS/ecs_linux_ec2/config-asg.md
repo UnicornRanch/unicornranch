@@ -1,5 +1,5 @@
 ---
-title: "Cluster ECS + Linux EC2"
+title: "Configurando Launch Group"
 date: 2019-05-12
 weight: 2
 draft: false
@@ -8,7 +8,8 @@ updated: 2019-05-12
 
 #### Criação do ASG Launch Configuration
 
-- Procure por uma imagem chamada ECS-Optmized e selecione essa imagem: ![Connecting](/images/ecs/linux-ec2/asg-lc01.png)
+- Procure por uma imagem chamada ECS-Optmized e selecione essa imagem: 
+![Connecting](/images/ecs/linux-ec2/asg-lc01.png)
 
 
 - Selecione o tipo de instância:
