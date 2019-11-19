@@ -10,7 +10,7 @@ install:
 
 script:
     - hugo
-    - echo 'unicornranch.tech' > public/CNAME
+    - echo 't4it.tech' > public/CNAME
 
 deploy:
   provider: pages
