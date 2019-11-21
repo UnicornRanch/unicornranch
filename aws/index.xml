@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AWS on Unicorn Ranch</title>
+    <link>/aws/</link>
+    <description>Recent content in AWS on Unicorn Ranch</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 21 Nov 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/aws/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Criação de Conta</title>
+      <link>/aws/create_account/</link>
+      <pubDate>Thu, 21 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/aws/create_account/</guid>
+      <description>Pré-requisito.  Tenha um e-mail de grupo da sua área ou do projeto que usará a conta AWS. Dados cadastrais de cobrança Nome do projeto ou unidade de negócio que irá usar essa conta. (Opicional) Número do cartão de crédito para cobrança.  Acesse o portal  Entre em:
+ https://portal.aws.amazon.com/billing/signup#/start  Preencha os campos:
+ altere a linguagem para Potuguês insira o email do grupo crie um senha complexa dê um nome para a conta ( ex.</description>
+    </item>
+    
+  </channel>
+</rss>

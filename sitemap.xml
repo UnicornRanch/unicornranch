@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/aws/create_account/</loc>
+    <lastmod>2019-11-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/projetos/raspberry-pi/ssh-over-usb/</loc>
     <lastmod>2019-11-11T00:00:00+00:00</lastmod>
   </url>
@@ -38,8 +43,8 @@
   </url>
   
   <url>
-    <loc>/aws-ecs/</loc>
-    <lastmod>2019-05-09T00:00:00+00:00</lastmod>
+    <loc>/aws/</loc>
+    <lastmod>2019-11-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -49,7 +54,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-11-11T00:00:00+00:00</lastmod>
+    <lastmod>2019-11-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -73,7 +78,7 @@
   </url>
   
   <url>
-    <loc>/aws-eks/</loc>
+    <loc>/aws-ecs/</loc>
     <lastmod>2019-05-09T00:00:00+00:00</lastmod>
   </url>
   
@@ -100,6 +105,11 @@
   <url>
     <loc>/vmware-on-aws/</loc>
     <lastmod>2019-08-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/aws-eks/</loc>
+    <lastmod>2019-05-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
