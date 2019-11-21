@@ -36,6 +36,3 @@ echo ECS_CLUSTER=NOME_DO_CLUSTER >> /etc/ecs/ecs.config
 - Selecione a public key:
 ![Connecting](/images/ecs/linux-ec2/asg-lc07.png)
 
-
-#### Criação do ASG Launch Configuration
-
