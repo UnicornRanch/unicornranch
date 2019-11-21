@@ -1,7 +1,7 @@
 ---
 title: "AWS EKS"
 chapter: true
-weight: 2
+weight: 3
 draft: false
 ---
 
