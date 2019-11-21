@@ -18,7 +18,7 @@
       
       <guid>/aws-ecs/ecs_linux_ec2/config-asg/</guid>
       <description> updated: 2019-11-12
-Criação do ASG Launch Configuration  Procure por uma imagem chamada ECS-Optmized e selecione essa imagem:  Selecione o tipo de instância:  Click em &amp;ldquo;Advance Details&amp;rdquo; e declare o nome do cluster em User Data:   #!/bin/bash echo ECS_CLUSTER=NOME_DO_CLUSTER &amp;gt;&amp;gt; /etc/ecs/ecs.config   Selecione o Storage:  Selecione o Security Group:  Click em launch configuration:  Selecione a public key:   Criação do ASG Launch Configuration </description>
+Criação do ASG Launch Configuration  Procure por uma imagem chamada ECS-Optmized e selecione essa imagem:  Selecione o tipo de instância:  Click em &amp;ldquo;Advance Details&amp;rdquo; e declare o nome do cluster em User Data:   #!/bin/bash echo ECS_CLUSTER=NOME_DO_CLUSTER &amp;gt;&amp;gt; /etc/ecs/ecs.config   Selecione o Storage:  Selecione o Security Group:  Click em launch configuration:  Selecione a public key:   </description>
     </item>
     
     <item>

@@ -74,7 +74,7 @@
 	"title": "Configurando Launch Group",
 	"tags": [],
 	"description": "",
-	"content": " updated: 2019-11-12\nCriação do ASG Launch Configuration  Procure por uma imagem chamada ECS-Optmized e selecione essa imagem:  Selecione o tipo de instância:  Click em \u0026ldquo;Advance Details\u0026rdquo; e declare o nome do cluster em User Data:   #!/bin/bash echo ECS_CLUSTER=NOME_DO_CLUSTER \u0026gt;\u0026gt; /etc/ecs/ecs.config   Selecione o Storage:  Selecione o Security Group:  Click em launch configuration:  Selecione a public key:   Criação do ASG Launch Configuration "
+	"content": " updated: 2019-11-12\nCriação do ASG Launch Configuration  Procure por uma imagem chamada ECS-Optmized e selecione essa imagem:  Selecione o tipo de instância:  Click em \u0026ldquo;Advance Details\u0026rdquo; e declare o nome do cluster em User Data:   #!/bin/bash echo ECS_CLUSTER=NOME_DO_CLUSTER \u0026gt;\u0026gt; /etc/ecs/ecs.config   Selecione o Storage:  Selecione o Security Group:  Click em launch configuration:  Selecione a public key:   "
 },
 {
 	"uri": "/vmware-on-aws-/vmware-hcx/02-prereq/",
