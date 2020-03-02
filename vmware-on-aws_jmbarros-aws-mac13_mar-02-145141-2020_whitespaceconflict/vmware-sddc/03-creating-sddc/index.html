@@ -15,7 +15,7 @@
     <link rel="shortcut icon" href="../../../images/favicon.ico" type="image/x-icon" />
 <link rel="icon" href="../../../images/favicon.ico" type="image/x-icon" />
 
-    <title>Configurando Launch Group :: Unicorn Ranch</title>
+    <title>Creating a SDDC :: Unicorn Ranch</title>
 
     
     <link href="../../../css/nucleus.css?1583173146" rel="stylesheet">
@@ -47,7 +47,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/aws-ecs/ecs_linux_ec2/config-asg/">
+  <body class="" data-url="/vmware-on-aws_jmbarros-aws-mac13_mar-02-145141-2020_whitespaceconflict/vmware-sddc/03-creating-sddc/">
     <nav id="sidebar" class="">
 
 
@@ -139,7 +139,7 @@
   
     
     <li data-nav-id="/aws-ecs/" title="AWS ECS" class="dd-item 
-        parent
+        
         
         
         ">
@@ -185,7 +185,7 @@
   
     
     <li data-nav-id="/aws-ecs/ecs_linux_ec2/" title="EC2 Linux &#43; Networking" class="dd-item 
-        parent
+        
         
         
         ">
@@ -209,7 +209,7 @@
  
   
     
-      <li data-nav-id="/aws-ecs/ecs_linux_ec2/config-asg/" title="Configurando Launch Group" class="dd-item active">
+      <li data-nav-id="/aws-ecs/ecs_linux_ec2/config-asg/" title="Configurando Launch Group" class="dd-item ">
         <a href="../../../aws-ecs/ecs_linux_ec2/config-asg/">
         Configurando Launch Group
         
@@ -264,7 +264,7 @@
   
     
     <li data-nav-id="/vmware-on-aws_jmbarros-aws-mac13_mar-02-145141-2020_whitespaceconflict/" title="VMware on AWS" class="dd-item 
-        
+        parent
         
         
         ">
@@ -291,7 +291,7 @@
   
     
     <li data-nav-id="/vmware-on-aws_jmbarros-aws-mac13_mar-02-145141-2020_whitespaceconflict/vmware-sddc/" title="VMware SDDC" class="dd-item 
-        
+        parent
         
         
         ">
@@ -334,7 +334,7 @@
  
   
     
-      <li data-nav-id="/vmware-on-aws_jmbarros-aws-mac13_mar-02-145141-2020_whitespaceconflict/vmware-sddc/03-creating-sddc/" title="Creating a SDDC" class="dd-item ">
+      <li data-nav-id="/vmware-on-aws_jmbarros-aws-mac13_mar-02-145141-2020_whitespaceconflict/vmware-sddc/03-creating-sddc/" title="Creating a SDDC" class="dd-item active">
         <a href="../../../vmware-on-aws_jmbarros-aws-mac13_mar-02-145141-2020_whitespaceconflict/vmware-sddc/03-creating-sddc/">
         Creating a SDDC
         
@@ -854,7 +854,7 @@
                   
                   
                   <div id="top-github-link">
-                    <a class="github-link" title='Edit this page' href="https://github.com/UnicornRanch/unicornranch/blob/master/content/AWS%20ECS/ecs_linux_ec2/config-asg.md" target="blank">
+                    <a class="github-link" title='Edit this page' href="https://github.com/UnicornRanch/unicornranch/blob/master/content/VMware%20on%20AWS_jmbarros-AWS-mac13_Mar-02-145141-2020_WhiteSpaceConflict/VMware%20SDDC/03-creating-sddc.md" target="blank">
                       <i class="fas fa-code-branch"></i>
                       <span id="top-github-link-text">Edit this page</span>
                     </a>
@@ -887,7 +887,7 @@
             
           
           
-            <a href='../../../'>Unicorn Ranch</a> > <a href='../../../aws-ecs/'>AWS ECS</a> > <a href='../../../aws-ecs/ecs_linux_ec2/'>EC2 Linux + Networking</a> > Configurando Launch Group
+            <a href='../../../'>Unicorn Ranch</a> > <a href='../../../vmware-on-aws_jmbarros-aws-mac13_mar-02-145141-2020_whitespaceconflict/'>VMware on AWS</a> > <a href='../../../vmware-on-aws_jmbarros-aws-mac13_mar-02-145141-2020_whitespaceconflict/vmware-sddc/'>VMware SDDC</a> > Creating a SDDC
           
          
           
@@ -901,20 +901,7 @@
                 
                     <div class="progress">
     <div class="wrapper">
-<nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li>
-<ul>
-<li>
-<ul>
-<li><a href="#criação-do-asg-launch-configuration">Criação do ASG Launch Configuration</a></li>
-</ul></li>
-</ul></li>
-</ul></li>
-</ul>
-</nav>
+
     </div>
 </div>
 
@@ -926,45 +913,48 @@
         
         <div id="body-inner">
           
-            <h1>Configurando Launch Group</h1>
+            <h1>Creating a SDDC</h1>
           
 
         
 
 
+<ul>
+<li><p>Click on CREATE SDDC.
+<img src="../../../images/vmc/create-sddc/01.png" alt="" /></p></li>
 
-
-<p>updated: 2019-11-12</p>
-
-<h4 id="criação-do-asg-launch-configuration">Criação do ASG Launch Configuration</h4>
+<li><p>Set properties:</p>
 
 <ul>
-<li><p>Procure por uma imagem chamada ECS-Optmized e selecione essa imagem:
-<img src="../../../images/ecs/linux-ec2/asg-lc01.png" alt="Connecting" /></p></li>
+<li>Set AWS Region,</li>
+<li>Set Deployment size,</li>
+<li>Set SDDC.
+<img src="../../../images/vmc/create-sddc/02.png" alt="" /></li>
+</ul></li>
 
-<li><p>Selecione o tipo de instância:
-<img src="../../../images/ecs/linux-ec2/asg-lc02.png" alt="Connecting" /></p></li>
-
-<li><p>Click em &ldquo;Advance Details&rdquo; e declare o nome do cluster em User Data:
-<img src="../../../images/ecs/linux-ec2/asg-lc03.png" alt="Connecting" /></p></li>
-</ul>
-
-<pre><code>#!/bin/bash
-echo ECS_CLUSTER=NOME_DO_CLUSTER &gt;&gt; /etc/ecs/ecs.config
-</code></pre>
+<li><p>Connect to AWS:</p>
 
 <ul>
-<li><p>Selecione o Storage:
-<img src="../../../images/ecs/linux-ec2/asg-lc04.png" alt="Connecting" /></p></li>
+<li>Set AWS Account
+<img src="../../../images/vmc/create-sddc/03.png" alt="" /></li>
+</ul></li>
 
-<li><p>Selecione o Security Group:
-<img src="../../../images/ecs/linux-ec2/asg-lc05.png" alt="Connecting" /></p></li>
+<li><p>VPC and subnet:</p>
 
-<li><p>Click em launch configuration:
-<img src="../../../images/ecs/linux-ec2/asg-lc06.png" alt="Connecting" /></p></li>
+<ul>
+<li>Select VPC;</li>
+<li>Select subnet.
+<img src="../../../images/vmc/create-sddc/04.png" alt="" /></li>
+</ul></li>
 
-<li><p>Selecione a public key:
-<img src="../../../images/ecs/linux-ec2/asg-lc07.png" alt="Connecting" /></p></li>
+<li><p>Set management subnet.
+<img src="../../../images/vmc/create-sddc/05.png" alt="" /></p></li>
+
+<li><p>Check acknowledge cost.
+<img src="../../../images/vmc/create-sddc/06.png" alt="" /></p></li>
+
+<li><p>Check status on SDDC Console.
+<img src="../../../images/vmc/create-sddc/07.png" alt="" /></p></li>
 </ul>
 
 
@@ -1039,7 +1029,6 @@ echo ECS_CLUSTER=NOME_DO_CLUSTER &gt;&gt; /etc/ecs/ecs.config
             
                 
                     
-                    
                 
                 
 
@@ -1054,9 +1043,6 @@ echo ECS_CLUSTER=NOME_DO_CLUSTER &gt;&gt; /etc/ecs/ecs.config
             
             
                 
-                    
-                        
-                        
                     
                 
                 
@@ -1068,77 +1054,6 @@ echo ECS_CLUSTER=NOME_DO_CLUSTER &gt;&gt; /etc/ecs/ecs.config
                     
             
         
-                    
-                        
-            
-            
-                
-                    
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                        
-                        
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                        
-                    
-                    
-
                     
                         
             
@@ -1188,10 +1103,30 @@ echo ECS_CLUSTER=NOME_DO_CLUSTER &gt;&gt; /etc/ecs/ecs.config
             
         
                     
+            
+        
+                    
                         
             
             
                 
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
                     
                 
                 
@@ -1205,6 +1140,9 @@ echo ECS_CLUSTER=NOME_DO_CLUSTER &gt;&gt; /etc/ecs/ecs.config
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -1216,6 +1154,42 @@ echo ECS_CLUSTER=NOME_DO_CLUSTER &gt;&gt; /etc/ecs/ecs.config
                     
             
         
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
                     
                         
             
@@ -1345,6 +1319,22 @@ echo ECS_CLUSTER=NOME_DO_CLUSTER &gt;&gt; /etc/ecs/ecs.config
             
         
                     
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
             
         
                     
@@ -1504,10 +1494,10 @@ echo ECS_CLUSTER=NOME_DO_CLUSTER &gt;&gt; /etc/ecs/ecs.config
 
 
         
-            <a class="nav nav-prev" href="../../../aws-ecs/ecs_linux_ec2/" title="EC2 Linux &#43; Networking"> <i class="fas fa-chevron-left"></i></a>
+            <a class="nav nav-prev" href="../../../vmware-on-aws_jmbarros-aws-mac13_mar-02-145141-2020_whitespaceconflict/vmware-sddc/02-prereq/" title="Requirements"> <i class="fas fa-chevron-left"></i></a>
         
         
-            <a class="nav nav-next" href="../../../aws-ecs/ecs_linux_ec2/asg_create/" title="Criando AutoScaling Group" style="margin-right: 0px;"><i class="fas fa-chevron-right"></i></a>
+            <a class="nav nav-next" href="../../../vmware-on-aws_jmbarros-aws-mac13_mar-02-145141-2020_whitespaceconflict/vmware-hcx/" title="VMware HCX" style="margin-right: 0px;"><i class="fas fa-chevron-right"></i></a>
         
     </div>
 
