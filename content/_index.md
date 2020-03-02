@@ -9,3 +9,4 @@ weight: 1
 
 Essa página é uma inicativa de auxiliar parceiros e clientes na utilização das soluções AWS. 
 
+![AWS](/images/aws.gif)
